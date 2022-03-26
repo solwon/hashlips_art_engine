@@ -11,7 +11,7 @@ const metadataList = JSON.parse(rawdata);
 
 const saveProjectPreviewImage = async (_data) => {
   // Extract from preview config
-  const { thumbWidth, thumbPerRow, imageRatio, imageName } = preview;
+  const { thumbWidth, thumbPerRow, imageRatio, imageName, numbering } = preview;
   // Calculate height on the fly
   const thumbHeight = thumbWidth * imageRatio;
   // Prepare canvas
@@ -33,6 +33,7 @@ const saveProjectPreviewImage = async (_data) => {
   for (let index = 0; index < _data.length; index++) {
     const nft = _data[index];
     await loadImage(`${buildDir}/images/${nft.edition}.png`).then((image) => {
+      previewCtx.font = "20px Arial";
       previewCtx.drawImage(
         image,
         thumbWidth * (index % thumbPerRow),
@@ -40,6 +41,9 @@ const saveProjectPreviewImage = async (_data) => {
         thumbWidth,
         thumbHeight
       );
+      if (numbering) {
+        previewCtx.fillText(nft.edition.toString(), thumbWidth * (index % thumbPerRow), thumbHeight * Math.trunc(index / thumbPerRow) + 20);
+      }
     });
   }
 

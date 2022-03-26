@@ -5,9 +5,9 @@ const { NETWORK } = require(`${basePath}/constants/network.js`);
 const network = NETWORK.eth;
 
 // General metadata for Ethereum
-const namePrefix = "Your Collection";
-const description = "Remember to replace this description";
-const baseUri = "ipfs://NewUriToReplace";
+const namePrefix = "TESTC";
+const description = "This is Test Cat";
+const baseUri = "ipfs://QmRbDHmU9f8pPsGMfU4uPyFhcbwMpVJYP1A6SWGqKbdjKM";
 
 const solanaMetadata = {
   symbol: "YC",
@@ -24,17 +24,55 @@ const solanaMetadata = {
 // If you have selected Solana then the collection starts from 0 automatically
 const layerConfigurations = [
   {
-    growEditionSizeTo: 5,
+    growEditionSizeTo: 30,
     layersOrder: [
-      { name: "Background" },
-      { name: "Eyeball" },
-      { name: "Eye color" },
-      { name: "Iris" },
-      { name: "Shine" },
-      { name: "Bottom lid" },
-      { name: "Top lid" },
+      { name: "background" },
+      { name: "blessing" },
+      { name: "fur" },
+      { name: "tabby" },
+      { name: "clothing" },
+      { name: "eyes" },
+      { name: "mouth" },
+      { name: "headgears" },
     ],
   },
+  // {
+  //   growEditionSizeTo: 205,
+  //   layersOrder: [
+  //     { name: "01.BG" },
+  //     { name: "02.Fur" },
+  //     { name: "03.Tabby" },
+  //     { name: "06.Eyes" },
+  //     { name: "07.Mouth" },
+  //     { name: "08.Nose" },
+  //     { name: "09.Headgears" },
+  //   ],
+  // },
+  // {
+  //   growEditionSizeTo: 235,
+  //   layersOrder: [
+  //     { name: "01.BG" },
+  //     { name: "02.Fur" },
+  //     { name: "03.Tabby" },
+  //     { name: "06.Eyes" },
+  //     { name: "07.Mouth" },
+  //     { name: "08.Nose" },
+  //     { name: "10.Hat" },
+  //   ],
+  // },
+  // {
+  //   growEditionSizeTo: 250,
+  //   layersOrder: [
+  //     { name: "01.BG" },
+  //     { name: "02.Fur" },
+  //     { name: "03.Tabby" },
+  //     { name: "06.Eyes" },
+  //     { name: "07.Mouth" },
+  //     { name: "08.Nose" },
+  //     { name: "09.Headgears" },
+  //     { name: "10.Hat" },
+  //   ],
+  // }
 ];
 
 const shuffleLayerConfigurations = false;
@@ -42,8 +80,8 @@ const shuffleLayerConfigurations = false;
 const debugLogs = false;
 
 const format = {
-  width: 512,
-  height: 512,
+  width: 2000,
+  height: 2000,
   smoothing: false,
 };
 
@@ -68,11 +106,11 @@ const text = {
 };
 
 const pixelFormat = {
-  ratio: 2 / 128,
+  ratio: 64 / 128,
 };
 
 const background = {
-  generate: true,
+  generate: false,
   brightness: "80%",
   static: false,
   default: "#000000",
@@ -85,10 +123,11 @@ const rarityDelimiter = "#";
 const uniqueDnaTorrance = 10000;
 
 const preview = {
-  thumbPerRow: 5,
-  thumbWidth: 50,
+  thumbPerRow: 20,
+  thumbWidth: 400,
   imageRatio: format.height / format.width,
   imageName: "preview.png",
+  numbering: true,
 };
 
 const preview_gif = {
