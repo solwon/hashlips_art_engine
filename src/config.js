@@ -24,16 +24,57 @@ const solanaMetadata = {
 // If you have selected Solana then the collection starts from 0 automatically
 const layerConfigurations = [
   {
-    growEditionSizeTo: 30,
+    growEditionSizeTo: 200,
     layersOrder: [
-      { name: "background" },
-      { name: "blessing" },
-      { name: "fur" },
-      { name: "tabby" },
-      { name: "clothing" },
-      { name: "eyes" },
-      { name: "mouth" },
-      { name: "headgears" },
+      { name: "Background" },
+      { name: "Fur1" },
+      { name: "Eyes" },
+      { name: "Mouth" },
+    ],
+  },
+  {
+    growEditionSizeTo: 400,
+    layersOrder: [
+      { name: "Background" },
+      { name: "Fur2" },
+      { name: "Eyes" },
+      { name: "Mouth" },
+    ],
+  },
+  {
+    growEditionSizeTo: 600,
+    layersOrder: [
+      { name: "Background" },
+      { name: "Fur3" },
+      { name: "Eyes" },
+      { name: "Mouth" },
+    ],
+  },
+  {
+    growEditionSizeTo: 800,
+    layersOrder: [
+      { name: "Background" },
+      { name: "Fur4" },
+      { name: "Eyes" },
+      { name: "Mouth" },
+    ],
+  },
+  {
+    growEditionSizeTo: 1000,
+    layersOrder: [
+      { name: "Background" },
+      { name: "Fur5" },
+      { name: "Eyes" },
+      { name: "Mouth" },
+    ],
+  },
+  {
+    growEditionSizeTo: 1200,
+    layersOrder: [
+      { name: "Background" },
+      { name: "Fur6" },
+      { name: "Eyes" },
+      { name: "Mouth" },
     ],
   },
   // {
