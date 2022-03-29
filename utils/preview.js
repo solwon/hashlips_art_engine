@@ -6,7 +6,12 @@ const buildDir = `${basePath}/build`;
 const { preview } = require(`${basePath}/src/config.js`);
 
 // read json data
-const rawdata = fs.readFileSync(`${basePath}/build/json/_metadata.json`);
+let rawdata = '';
+if (!preview.sorted) {
+  rawdata = fs.readFileSync(`${basePath}/build/json/_metadata.json`);
+} else {
+  rawdata = fs.readFileSync(`${basePath}/build/json/_sortedMetadata.json`);
+}
 const metadataList = JSON.parse(rawdata);
 
 const saveProjectPreviewImage = async (_data) => {
@@ -24,6 +29,9 @@ const saveProjectPreviewImage = async (_data) => {
   );
 
   // Initiate the canvas now that we have calculated everything
+  if (preview.sorted) {
+    imageName = "sortedPreview.png";
+  }
   const previewPath = `${buildDir}/${imageName}`;
   const previewCanvas = createCanvas(previewCanvasWidth, previewCanvasHeight);
   const previewCtx = previewCanvas.getContext("2d");
