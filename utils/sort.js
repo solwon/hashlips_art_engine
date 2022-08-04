@@ -16,7 +16,7 @@ let rawdata = fs.readFileSync(`${buildDir}/json/_metadata.json`);
 let data = JSON.parse(rawdata);
 const size = data.length;
 
-const orders = ['Background', 'Fur', 'Eyes', 'Mouth'];
+const orders = ['Background', 'Fur', 'Clothing', 'Eyes', 'Eyeware', 'Mouth'];
 
 const getRarityWeight = (_str) => {
     let nameWithoutExtension = _str.slice(0, -4);
@@ -50,7 +50,15 @@ const getElements = (path) => {
 const layersSetup = (layersOrder) => {
     layers = {};
     for (const obj of layersOrder) {
-        layers[obj] = getElements(`${layersDir}/${obj}/`);
+        objName = obj;
+        if (obj == 'Fur') {
+            if (obj.includes('_ne')) {
+                objName = 'Fur_NoEars';
+            } else {
+                objName = 'Fur_YesEars';
+            }
+        }
+        layers[obj] = getElements(`${layersDir}/${objName}/`);
     }
     return layers;
 };
@@ -59,8 +67,12 @@ const setup = layersSetup(orders);
 
 function compare(a, b) {
     for (let i = 0; i < orders.length; i++) {
-        const aValue = a.attributes.find(x => x.trait_type == orders[i]).value;
-        const bValue = b.attributes.find(x => x.trait_type == orders[i]).value;
+        const aAtt = a.attributes.find(x => x.trait_type == orders[i]);
+        const bAtt = b.attributes.find(x => x.trait_type == orders[i]);
+        const aValue = aAtt ? aAtt.value : false;
+        const bValue = bAtt ? bAtt.value : false;
+        // const aValue = a.attributes.find(x => x.trait_type == orders[i]).value;
+        // const bValue = b.attributes.find(x => x.trait_type == orders[i]).value;
         if (aValue) {
             if (bValue) {
                 const aWeight = setup[orders[i]][aValue];

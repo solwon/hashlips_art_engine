@@ -5,6 +5,15 @@ const buildDir = `${basePath}/build`;
 
 const { preview } = require(`${basePath}/src/config.js`);
 
+function getDivinity(attributes) {
+  for (const element of attributes) {
+    if (element.trait_type == 'Divine Protection') {
+      return element.value;
+    }
+  }
+  return '';
+}
+
 // read json data
 let rawdata = '';
 if (!preview.sorted) {
@@ -16,7 +25,7 @@ const metadataList = JSON.parse(rawdata);
 
 const saveProjectPreviewImage = async (_data) => {
   // Extract from preview config
-  const { thumbWidth, thumbPerRow, imageRatio, imageName, numbering } = preview;
+  let { thumbWidth, thumbPerRow, imageRatio, imageName, numbering } = preview;
   // Calculate height on the fly
   const thumbHeight = thumbWidth * imageRatio;
   // Prepare canvas
@@ -51,6 +60,7 @@ const saveProjectPreviewImage = async (_data) => {
       );
       if (numbering) {
         previewCtx.fillText(nft.edition.toString(), thumbWidth * (index % thumbPerRow), thumbHeight * Math.trunc(index / thumbPerRow) + 20);
+        previewCtx.fillText(getDivinity(nft.attributes), thumbWidth * (index % thumbPerRow), thumbHeight * Math.trunc(index / thumbPerRow) + 40);
       }
     });
   }

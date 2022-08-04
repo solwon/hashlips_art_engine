@@ -24,96 +24,130 @@ const solanaMetadata = {
 // If you have selected Solana then the collection starts from 0 automatically
 const layerConfigurations = [
   {
-    growEditionSizeTo: 200,
+    growEditionSizeTo: 4900,
     layersOrder: [
       { name: "Background" },
-      { name: "Fur1" },
+      {
+        name: "Divine_Protection",
+        options: {
+          displayName: "Divine Protection"
+        },
+      },
+      { name: "Sign" },
+      {
+        name: "Fur_YesEars",
+        options: {
+          displayName: "Fur",
+        }
+      },
+      { name: "Tabby" },
+      {
+        name: "Accesory_YesEars",
+        options: {
+          displayName: "Accesory"
+        }
+      },
+      { name: "Clothing" },
       { name: "Eyes" },
-      { name: "Mouth" },
-    ],
-  },
-  {
-    growEditionSizeTo: 400,
-    layersOrder: [
-      { name: "Background" },
-      { name: "Fur2" },
-      { name: "Eyes" },
-      { name: "Mouth" },
-    ],
-  },
-  {
-    growEditionSizeTo: 600,
-    layersOrder: [
-      { name: "Background" },
-      { name: "Fur3" },
-      { name: "Eyes" },
-      { name: "Mouth" },
-    ],
-  },
-  {
-    growEditionSizeTo: 800,
-    layersOrder: [
-      { name: "Background" },
-      { name: "Fur4" },
-      { name: "Eyes" },
-      { name: "Mouth" },
-    ],
-  },
-  {
-    growEditionSizeTo: 1000,
-    layersOrder: [
-      { name: "Background" },
-      { name: "Fur5" },
-      { name: "Eyes" },
-      { name: "Mouth" },
-    ],
-  },
-  {
-    growEditionSizeTo: 1200,
-    layersOrder: [
-      { name: "Background" },
-      { name: "Fur6" },
-      { name: "Eyes" },
+      { name: "Eyeware" },
       { name: "Mouth" },
     ],
   },
   // {
-  //   growEditionSizeTo: 205,
+  //   growEditionSizeTo: 4900,
   //   layersOrder: [
-  //     { name: "01.BG" },
-  //     { name: "02.Fur" },
-  //     { name: "03.Tabby" },
-  //     { name: "06.Eyes" },
-  //     { name: "07.Mouth" },
-  //     { name: "08.Nose" },
-  //     { name: "09.Headgears" },
+  //     { name: "Background" },
+  //     {
+  //       name: "Divine_Protection",
+  //       options: {
+  //         displayName: "Divine Protection"
+  //       },
+  //     },
+  //     { name: "Sign" },
+  //     {
+  //       name: "Fur_NoEars",
+  //       options: {
+  //         displayName: "Fur",
+  //       }
+  //     },
+  //     { name: "Tabby" },
+  //     {
+  //       name: "Accesory_NoEars",
+  //       options: {
+  //         displayName: "Accesory"
+  //       }
+  //     },
+  //     { name: "Clothing" },
+  //     { name: "Eyes" },
+  //     { name: "Eyeware" },
+  //     { name: "Mouth" },
   //   ],
   // },
-  // {
-  //   growEditionSizeTo: 235,
-  //   layersOrder: [
-  //     { name: "01.BG" },
-  //     { name: "02.Fur" },
-  //     { name: "03.Tabby" },
-  //     { name: "06.Eyes" },
-  //     { name: "07.Mouth" },
-  //     { name: "08.Nose" },
-  //     { name: "10.Hat" },
-  //   ],
-  // },
-  // {
-  //   growEditionSizeTo: 250,
-  //   layersOrder: [
-  //     { name: "01.BG" },
-  //     { name: "02.Fur" },
-  //     { name: "03.Tabby" },
-  //     { name: "06.Eyes" },
-  //     { name: "07.Mouth" },
-  //     { name: "08.Nose" },
-  //     { name: "09.Headgears" },
-  //     { name: "10.Hat" },
-  //   ],
-  // }
+];
+
+const layerConfigurationsWithEars = [
+  {
+    growEditionSizeTo: 1089,
+    layersOrder: [
+      { name: "Background" },
+      { 
+        name: "Divine_Protection",
+        options: {
+          displayName: "Divine Protection"
+        },
+      },
+      { name: "Sign" },
+      {
+        name: "Fur_YesEars",
+        options: {
+          displayName: "Fur",
+        }
+      },
+      { name: "Tabby" },
+      { name: "Clothing" },
+      {
+        name: "Accesory_YesEars",
+        options: {
+          displayName: "Accesory"
+        }
+      },
+      { name: "Eyes" },
+      { name: "Eyeware" },
+      { name: "Mouth" },
+    ],
+  },
+];
+const layerConfigurationsWithoutEars = [
+  {
+    growEditionSizeTo: 1089,
+    layersOrder: [
+      { name: "Background" },
+      {
+        name: "Divine_Protection",
+        options: {
+          displayName: "Divine Protection"
+        },
+      },
+      { name: "Sign" },
+      {
+        name: "Fur_NoEars",
+        options: {
+          displayName: "Fur",
+        }
+      },
+      { name: "Tabby" },
+      { name: "Clothing" },
+      {
+        name: "Accesory_NoEars",
+        options: {
+          displayName: "Accesory"
+        }
+      },
+      { name: "Eyes" },
+      { name: "Eyeware" },
+      { name: "Mouth" },
+    ],
+  },
 ];
 
 const shuffleLayerConfigurations = false;
@@ -164,8 +198,8 @@ const rarityDelimiter = "#";
 const uniqueDnaTorrance = 10000;
 
 const preview = {
-  thumbPerRow: 30,
-  thumbWidth: 300,
+  thumbPerRow: 70,
+  thumbWidth: 350,
   imageRatio: format.height / format.width,
   imageName: "preview.png",
   numbering: true,
@@ -200,4 +234,6 @@ module.exports = {
   solanaMetadata,
   gif,
   preview_gif,
+  layerConfigurationsWithEars,
+  layerConfigurationsWithoutEars
 };

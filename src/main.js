@@ -22,12 +22,15 @@ const {
   solanaMetadata,
   gif,
 } = require(`${basePath}/src/config.js`);
+const { pickedDna } = require(`${basePath}/src/dnalist.js`);
+// console.log(pickedDna);
+
 const canvas = createCanvas(format.width, format.height);
 const ctx = canvas.getContext("2d");
 ctx.imageSmoothingEnabled = format.smoothing;
 var metadataList = [];
 var attributesList = [];
-var dnaList = new Set();
+var dnaList = new Set([...pickedDna]);
 const DNA_DELIMITER = "-";
 const HashlipsGiffer = require(`${basePath}/modules/HashlipsGiffer.js`);
 const { of } = require('ipfs-only-hash');
