@@ -30,13 +30,17 @@ const layerConfigurations = [
     growEditionSizeTo: pickedDna.length,
     layersOrder: [
       {
-        name: "Divine_Protection",
+        name: "Divinity",
         options: {
-          displayName: "Divine Protection",
           bypassDNA: true,
         },
       },
-      { name: "Background" },
+      { 
+        name: "Background",
+        options: {
+          bypassDNA: true,
+        },
+      },
       { name: "Sign" },
       {
         name: "Furs",
@@ -46,25 +50,24 @@ const layerConfigurations = [
       },
       { name: "Tabby" },
       {
-        name: "Accesories",
+        name: "Headwears",
         options: {
-          displayName: "Accesory"
+          displayName: "Headwear"
         }
       },
       { name: "Clothing" },
       { name: "Eyes" },
-      { name: "Eyeware" },
+      { name: "Eyewear" },
       { name: "Mouth" },
     ],
   },
   {
     isSelection: false,
-    growEditionSizeTo: 100,
+    growEditionSizeTo: 4900,
     layersOrder: [
       {
-        name: "Divine_Protection",
+        name: "Divinity",
         options: {
-          displayName: "Divine Protection",
           bypassDNA: true,
         },
       },
@@ -78,28 +81,28 @@ const layerConfigurations = [
       },
       { name: "Tabby" },
       {
-        name: "Accesory_YesEars",
+        name: "Headwear_YesEars",
         options: {
-          displayName: "Accesory"
+          displayName: "Headwear"
         }
       },
       { name: "Clothing" },
       { name: "Eyes" },
-      { name: "Eyeware" },
+      { name: "Eyewear" },
       { name: "Mouth" },
     ],
   },
   // {
+  //   isSelection: false,
   //   growEditionSizeTo: 4900,
   //   layersOrder: [
-  //     { name: "Background" },
   //     {
-  //       name: "Divine_Protection",
+  //       name: "Divinity",
   //       options: {
-  //         displayName: "Divine Protection"
   //         bypassDNA: true,
   //       },
   //     },
+  //     { name: "Background" },
   //     { name: "Sign" },
   //     {
   //       name: "Fur_NoEars",
@@ -109,14 +112,14 @@ const layerConfigurations = [
   //     },
   //     { name: "Tabby" },
   //     {
-  //       name: "Accesory_NoEars",
+  //       name: "Headwear_NoEars",
   //       options: {
-  //         displayName: "Accesory"
+  //         displayName: "Headwear"
   //       }
   //     },
   //     { name: "Clothing" },
   //     { name: "Eyes" },
-  //     { name: "Eyeware" },
+  //     { name: "Eyewear" },
   //     { name: "Mouth" },
   //   ],
   // },

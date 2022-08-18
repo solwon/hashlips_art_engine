@@ -13,21 +13,20 @@ const rawMetadata = fs.readFileSync(`${metadataDir}/${metadataFile}`);
 const metadata = JSON.parse(rawMetadata);
 
 const layerOrder = [
-    'Divine Protection',
+    'Divinity',
     'Background',
     'Sign',
     'Fur',
     'Tabby',
-    'Accesory',
+    'Headwear',
     'Clothing',
     'Eyes',
-    'Eyeware',
+    'Eyewear',
     'Mouth'
 ]
 const layerDict = {
-    'Divine Protection': 'Divine_Protection',
     'Fur': 'Furs',
-    'Accesory': 'Accesories'
+    'Headwear': 'Headwears'
 }
 
 const getFileName = (layer, value) => {
