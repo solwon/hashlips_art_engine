@@ -1,0 +1,5083 @@
+yarn run v1.22.18
+$ node utils/rarity.js
+Trait type: Background
+{
+  trait: '01am',
+  weight: '128',
+  occurrence: '108 in 4900 editions (2.20 %)'
+}
+{
+  trait: '01pm',
+  weight: '240',
+  occurrence: '211 in 4900 editions (4.31 %)'
+}
+{
+  trait: '01pm_smog',
+  weight: '120',
+  occurrence: '77 in 4900 editions (1.57 %)'
+}
+{
+  trait: '02am',
+  weight: '88',
+  occurrence: '66 in 4900 editions (1.35 %)'
+}
+{
+  trait: '02pm',
+  weight: '230',
+  occurrence: '185 in 4900 editions (3.78 %)'
+}
+{
+  trait: '02pm_rain',
+  weight: '120',
+  occurrence: '85 in 4900 editions (1.73 %)'
+}
+{
+  trait: '03am',
+  weight: '98',
+  occurrence: '80 in 4900 editions (1.63 %)'
+}
+{
+  trait: '03am_snow',
+  weight: '120',
+  occurrence: '77 in 4900 editions (1.57 %)'
+}
+{
+  trait: '03pm',
+  weight: '360',
+  occurrence: '309 in 4900 editions (6.31 %)'
+}
+{
+  trait: '04am',
+  weight: '184',
+  occurrence: '147 in 4900 editions (3.00 %)'
+}
+{
+  trait: '04pm',
+  weight: '360',
+  occurrence: '278 in 4900 editions (5.67 %)'
+}
+{
+  trait: '04pm_rain',
+  weight: '140',
+  occurrence: '110 in 4900 editions (2.24 %)'
+}
+{
+  trait: '05am',
+  weight: '284',
+  occurrence: '238 in 4900 editions (4.86 %)'
+}
+{
+  trait: '05pm',
+  weight: '186',
+  occurrence: '166 in 4900 editions (3.39 %)'
+}
+{
+  trait: '06am',
+  weight: '248',
+  occurrence: '178 in 4900 editions (3.63 %)'
+}
+{
+  trait: '06pm',
+  weight: '360',
+  occurrence: '292 in 4900 editions (5.96 %)'
+}
+{
+  trait: '07am',
+  weight: '330',
+  occurrence: '259 in 4900 editions (5.29 %)'
+}
+{
+  trait: '07pm',
+  weight: '214',
+  occurrence: '154 in 4900 editions (3.14 %)'
+}
+{
+  trait: '08am',
+  weight: '336',
+  occurrence: '285 in 4900 editions (5.82 %)'
+}
+{
+  trait: '08pm',
+  weight: '148',
+  occurrence: '104 in 4900 editions (2.12 %)'
+}
+{
+  trait: '09am',
+  weight: '268',
+  occurrence: '214 in 4900 editions (4.37 %)'
+}
+{
+  trait: '09pm',
+  weight: '180',
+  occurrence: '128 in 4900 editions (2.61 %)'
+}
+{
+  trait: '10am',
+  weight: '268',
+  occurrence: '192 in 4900 editions (3.92 %)'
+}
+{
+  trait: '10pm',
+  weight: '330',
+  occurrence: '255 in 4900 editions (5.20 %)'
+}
+{
+  trait: '11am',
+  weight: '248',
+  occurrence: '205 in 4900 editions (4.18 %)'
+}
+{
+  trait: '11pm',
+  weight: '68',
+  occurrence: '54 in 4900 editions (1.10 %)'
+}
+{
+  trait: '12am',
+  weight: '112',
+  occurrence: '97 in 4900 editions (1.98 %)'
+}
+{
+  trait: '12am_rain',
+  weight: '120',
+  occurrence: '101 in 4900 editions (2.06 %)'
+}
+{
+  trait: '12am_snow',
+  weight: '120',
+  occurrence: '85 in 4900 editions (1.73 %)'
+}
+{
+  trait: '12pm',
+  weight: '212',
+  occurrence: '160 in 4900 editions (3.27 %)'
+}
+
+Trait type: Divine Protection
+{
+  trait: 'Abundantia',
+  weight: '286',
+  occurrence: '124 in 4900 editions (2.53 %)'
+}
+{
+  trait: 'Aje',
+  weight: '286',
+  occurrence: '120 in 4900 editions (2.45 %)'
+}
+{
+  trait: 'Allat',
+  weight: '286',
+  occurrence: '153 in 4900 editions (3.12 %)'
+}
+{
+  trait: 'Asherah',
+  weight: '286',
+  occurrence: '141 in 4900 editions (2.88 %)'
+}
+{
+  trait: 'Byungchul_lee',
+  weight: '33',
+  occurrence: '14 in 4900 editions (0.29 %)'
+}
+{
+  trait: 'Caishen',
+  weight: '286',
+  occurrence: '161 in 4900 editions (3.29 %)'
+}
+{
+  trait: 'Cernunnos',
+  weight: '286',
+  occurrence: '127 in 4900 editions (2.59 %)'
+}
+{
+  trait: 'Chrysus',
+  weight: '286',
+  occurrence: '136 in 4900 editions (2.78 %)'
+}
+{
+  trait: 'Crom_cruach',
+  weight: '286',
+  occurrence: '138 in 4900 editions (2.82 %)'
+}
+{
+  trait: 'Dagon',
+  weight: '286',
+  occurrence: '153 in 4900 editions (3.12 %)'
+}
+{
+  trait: 'Demeter',
+  weight: '286',
+  occurrence: '140 in 4900 editions (2.86 %)'
+}
+{
+  trait: 'Dumuzi',
+  weight: '286',
+  occurrence: '138 in 4900 editions (2.82 %)'
+}
+{
+  trait: 'Ebisu',
+  weight: '286',
+  occurrence: '149 in 4900 editions (3.04 %)'
+}
+{
+  trait: 'Freyr',
+  weight: '286',
+  occurrence: '152 in 4900 editions (3.10 %)'
+}
+{
+  trait: 'Ganesha',
+  weight: '286',
+  occurrence: '133 in 4900 editions (2.71 %)'
+}
+{
+  trait: 'Gefion',
+  weight: '286',
+  occurrence: '120 in 4900 editions (2.45 %)'
+}
+{
+  trait: 'Granny_mago',
+  weight: '286',
+  occurrence: '131 in 4900 editions (2.67 %)'
+}
+{
+  trait: 'Horus',
+  weight: '286',
+  occurrence: '143 in 4900 editions (2.92 %)'
+}
+{
+  trait: 'Isis',
+  weight: '286',
+  occurrence: '131 in 4900 editions (2.67 %)'
+}
+{
+  trait: 'Jambhala',
+  weight: '286',
+  occurrence: '130 in 4900 editions (2.65 %)'
+}
+{
+  trait: 'JD_rockefeller',
+  weight: '36',
+  occurrence: '18 in 4900 editions (0.37 %)'
+}
+{
+  trait: 'Kubera',
+  weight: '286',
+  occurrence: '143 in 4900 editions (2.92 %)'
+}
+{
+  trait: 'Lakshmi',
+  weight: '286',
+  occurrence: '128 in 4900 editions (2.61 %)'
+}
+{
+  trait: 'Mansa_musa',
+  weight: '36',
+  occurrence: '25 in 4900 editions (0.51 %)'
+}
+{
+  trait: 'Mara',
+  weight: '286',
+  occurrence: '135 in 4900 editions (2.76 %)'
+}
+{
+  trait: 'Mir_osman_ali_khan',
+  weight: '42',
+  occurrence: '26 in 4900 editions (0.53 %)'
+}
+{
+  trait: 'Morrigan',
+  weight: '286',
+  occurrence: '125 in 4900 editions (2.55 %)'
+}
+{
+  trait: 'Nang_kwak',
+  weight: '286',
+  occurrence: '135 in 4900 editions (2.76 %)'
+}
+{
+  trait: 'Ninhursag',
+  weight: '286',
+  occurrence: '124 in 4900 editions (2.53 %)'
+}
+{
+  trait: 'Nosolus',
+  weight: '286',
+  occurrence: '137 in 4900 editions (2.80 %)'
+}
+{
+  trait: 'Odin',
+  weight: '286',
+  occurrence: '143 in 4900 editions (2.92 %)'
+}
+{
+  trait: 'Oshun',
+  weight: '286',
+  occurrence: '127 in 4900 editions (2.59 %)'
+}
+{
+  trait: 'Plutus',
+  weight: '286',
+  occurrence: '147 in 4900 editions (3.00 %)'
+}
+{
+  trait: 'Ptah',
+  weight: '286',
+  occurrence: '152 in 4900 editions (3.10 %)'
+}
+{
+  trait: 'Quetzalcoatl',
+  weight: '286',
+  occurrence: '120 in 4900 editions (2.45 %)'
+}
+{
+  trait: 'Sors',
+  weight: '286',
+  occurrence: '139 in 4900 editions (2.84 %)'
+}
+{
+  trait: 'Teutates',
+  weight: '286',
+  occurrence: '143 in 4900 editions (2.92 %)'
+}
+{
+  trait: 'Toutatis',
+  weight: '286',
+  occurrence: '159 in 4900 editions (3.24 %)'
+}
+{
+  trait: 'Veles',
+  weight: '286',
+  occurrence: '140 in 4900 editions (2.86 %)'
+}
+
+Trait type: Sign
+{
+  trait: 'Ace_clover',
+  weight: '36',
+  occurrence: '16 in 4900 editions (0.33 %)'
+}
+{
+  trait: 'Ace_dia',
+  weight: '36',
+  occurrence: '24 in 4900 editions (0.49 %)'
+}
+{
+  trait: 'Ace_heart',
+  weight: '36',
+  occurrence: '26 in 4900 editions (0.53 %)'
+}
+{
+  trait: 'Ace_spade',
+  weight: '36',
+  occurrence: '27 in 4900 editions (0.55 %)'
+}
+{
+  trait: 'Bling_stars1',
+  weight: '31',
+  occurrence: '19 in 4900 editions (0.39 %)'
+}
+{
+  trait: 'Bling_stars2',
+  weight: '36',
+  occurrence: '25 in 4900 editions (0.51 %)'
+}
+{
+  trait: 'Cider_bubble',
+  weight: '24',
+  occurrence: '17 in 4900 editions (0.35 %)'
+}
+{
+  trait: 'Coin_drops',
+  weight: '39',
+  occurrence: '26 in 4900 editions (0.53 %)'
+}
+{
+  trait: 'Graffiti1',
+  weight: '21',
+  occurrence: '14 in 4900 editions (0.29 %)'
+}
+{
+  trait: 'Heat1',
+  weight: '21',
+  occurrence: '11 in 4900 editions (0.22 %)'
+}
+{
+  trait: 'Light_down_01',
+  weight: '58',
+  occurrence: '34 in 4900 editions (0.69 %)'
+}
+{
+  trait: 'Light_down_02',
+  weight: '68',
+  occurrence: '61 in 4900 editions (1.24 %)'
+}
+{
+  trait: 'Light_down_03',
+  weight: '68',
+  occurrence: '41 in 4900 editions (0.84 %)'
+}
+{
+  trait: 'Light_up_01',
+  weight: '52',
+  occurrence: '27 in 4900 editions (0.55 %)'
+}
+{
+  trait: 'Light_up_02',
+  weight: '48',
+  occurrence: '31 in 4900 editions (0.63 %)'
+}
+{
+  trait: 'Light_up_03',
+  weight: '48',
+  occurrence: '40 in 4900 editions (0.82 %)'
+}
+{
+  trait: 'Mahjong_dots3',
+  weight: '31',
+  occurrence: '21 in 4900 editions (0.43 %)'
+}
+{
+  trait: 'Mahjong_dots4',
+  weight: '31',
+  occurrence: '20 in 4900 editions (0.41 %)'
+}
+{
+  trait: 'Mahjong_dots6',
+  weight: '31',
+  occurrence: '25 in 4900 editions (0.51 %)'
+}
+{
+  trait: 'Mahjong_dots9',
+  weight: '31',
+  occurrence: '21 in 4900 editions (0.43 %)'
+}
+{
+  trait: 'Meow1',
+  weight: '24',
+  occurrence: '16 in 4900 editions (0.33 %)'
+}
+{
+  trait: 'Meow10',
+  weight: '24',
+  occurrence: '19 in 4900 editions (0.39 %)'
+}
+{
+  trait: 'Meow11',
+  weight: '24',
+  occurrence: '15 in 4900 editions (0.31 %)'
+}
+{
+  trait: 'Meow12',
+  weight: '24',
+  occurrence: '14 in 4900 editions (0.29 %)'
+}
+{
+  trait: 'Meow13',
+  weight: '24',
+  occurrence: '17 in 4900 editions (0.35 %)'
+}
+{
+  trait: 'Meow2',
+  weight: '24',
+  occurrence: '16 in 4900 editions (0.33 %)'
+}
+{
+  trait: 'Meow3',
+  weight: '24',
+  occurrence: '10 in 4900 editions (0.20 %)'
+}
+{
+  trait: 'Meow4',
+  weight: '24',
+  occurrence: '19 in 4900 editions (0.39 %)'
+}
+{
+  trait: 'Meow6',
+  weight: '24',
+  occurrence: '11 in 4900 editions (0.22 %)'
+}
+{
+  trait: 'Meow7',
+  weight: '24',
+  occurrence: '16 in 4900 editions (0.33 %)'
+}
+{
+  trait: 'Meow8',
+  weight: '24',
+  occurrence: '20 in 4900 editions (0.41 %)'
+}
+{
+  trait: 'Meow9',
+  weight: '24',
+  occurrence: '23 in 4900 editions (0.47 %)'
+}
+{
+  trait: 'Nicolas_v1',
+  weight: '31',
+  occurrence: '18 in 4900 editions (0.37 %)'
+}
+{
+  trait: 'Nicolas_v6',
+  weight: '38',
+  occurrence: '21 in 4900 editions (0.43 %)'
+}
+{
+  trait: 'none',
+  weight: '6248',
+  occurrence: '0 in 4900 editions (0.00 %)'
+}
+{
+  trait: 'Oura_wht',
+  weight: '28',
+  occurrence: '14 in 4900 editions (0.29 %)'
+}
+{
+  trait: 'Plus1',
+  weight: '38',
+  occurrence: '25 in 4900 editions (0.51 %)'
+}
+{
+  trait: 'Plus2',
+  weight: '36',
+  occurrence: '20 in 4900 editions (0.41 %)'
+}
+{
+  trait: 'Rocket_science1',
+  weight: '25',
+  occurrence: '16 in 4900 editions (0.33 %)'
+}
+{
+  trait: 'Rocket_science2',
+  weight: '28',
+  occurrence: '29 in 4900 editions (0.59 %)'
+}
+{
+  trait: 'Saint',
+  weight: '24',
+  occurrence: '12 in 4900 editions (0.24 %)'
+}
+{
+  trait: 'Saint_v2',
+  weight: '24',
+  occurrence: '8 in 4900 editions (0.16 %)'
+}
+{
+  trait: 'Split3',
+  weight: '28',
+  occurrence: '22 in 4900 editions (0.45 %)'
+}
+{
+  trait: 'Sunny1',
+  weight: '22',
+  occurrence: '11 in 4900 editions (0.22 %)'
+}
+
+Trait type: Fur
+{
+  trait: 'Black',
+  weight: '400',
+  occurrence: '231 in 4900 editions (4.71 %)'
+}
+{
+  trait: 'Blue',
+  weight: '428',
+  occurrence: '251 in 4900 editions (5.12 %)'
+}
+{
+  trait: 'Butter',
+  weight: '240',
+  occurrence: '146 in 4900 editions (2.98 %)'
+}
+{
+  trait: 'Chocolate',
+  weight: '268',
+  occurrence: '149 in 4900 editions (3.04 %)'
+}
+{
+  trait: 'Cinnamon',
+  weight: '888',
+  occurrence: '531 in 4900 editions (10.84 %)'
+}
+{
+  trait: 'Cobalt',
+  weight: '138',
+  occurrence: '81 in 4900 editions (1.65 %)'
+}
+{
+  trait: 'Cream',
+  weight: '800',
+  occurrence: '457 in 4900 editions (9.33 %)'
+}
+{
+  trait: 'Crocodile',
+  weight: '135',
+  occurrence: '63 in 4900 editions (1.29 %)'
+}
+{
+  trait: 'Fawn',
+  weight: '888',
+  occurrence: '494 in 4900 editions (10.08 %)'
+}
+{
+  trait: 'Flamingo',
+  weight: '136',
+  occurrence: '77 in 4900 editions (1.57 %)'
+}
+{
+  trait: 'Grey',
+  weight: '855',
+  occurrence: '525 in 4900 editions (10.71 %)'
+}
+{
+  trait: 'Indigo',
+  weight: '224',
+  occurrence: '145 in 4900 editions (2.96 %)'
+}
+{
+  trait: 'Lavender',
+  weight: '848',
+  occurrence: '473 in 4900 editions (9.65 %)'
+}
+{
+  trait: 'Lilac',
+  weight: '648',
+  occurrence: '386 in 4900 editions (7.88 %)'
+}
+{
+  trait: 'Olive',
+  weight: '424',
+  occurrence: '272 in 4900 editions (5.55 %)'
+}
+{
+  trait: 'Snow',
+  weight: '275',
+  occurrence: '152 in 4900 editions (3.10 %)'
+}
+{
+  trait: 'Violet',
+  weight: '300',
+  occurrence: '170 in 4900 editions (3.47 %)'
+}
+{
+  trait: 'White',
+  weight: '500',
+  occurrence: '297 in 4900 editions (6.06 %)'
+}
+
+Trait type: Tabby
+{
+  trait: 'All_is_one',
+  weight: '48',
+  occurrence: '21 in 4900 editions (0.43 %)'
+}
+{
+  trait: 'A_quote',
+  weight: '42',
+  occurrence: '23 in 4900 editions (0.47 %)'
+}
+{
+  trait: 'Bandaid_body',
+  weight: '86',
+  occurrence: '42 in 4900 editions (0.86 %)'
+}
+{
+  trait: 'Bandaid_chin_r',
+  weight: '69',
+  occurrence: '34 in 4900 editions (0.69 %)'
+}
+{
+  trait: 'Bandaid_forehead',
+  weight: '48',
+  occurrence: '22 in 4900 editions (0.45 %)'
+}
+{
+  trait: 'Bandaid_forehead_l',
+  weight: '48',
+  occurrence: '26 in 4900 editions (0.53 %)'
+}
+{
+  trait: 'Bandaid_forehead_r',
+  weight: '58',
+  occurrence: '60 in 4900 editions (1.22 %)'
+}
+{
+  trait: 'Bandaid_forehead_r',
+  weight: '59',
+  occurrence: '60 in 4900 editions (1.22 %)'
+}
+{
+  trait: 'Bandaid_full',
+  weight: '39',
+  occurrence: '17 in 4900 editions (0.35 %)'
+}
+{
+  trait: 'Bandaid_head',
+  weight: '52',
+  occurrence: '19 in 4900 editions (0.39 %)'
+}
+{
+  trait: 'Bandaid_neck',
+  weight: '88',
+  occurrence: '54 in 4900 editions (1.10 %)'
+}
+{
+  trait: 'Bengal_gold',
+  weight: '24',
+  occurrence: '17 in 4900 editions (0.35 %)'
+}
+{
+  trait: 'Bengal_mud',
+  weight: '24',
+  occurrence: '5 in 4900 editions (0.10 %)'
+}
+{
+  trait: 'Bengal_silver',
+  weight: '34',
+  occurrence: '16 in 4900 editions (0.33 %)'
+}
+{
+  trait: 'Bighouse_doodle02',
+  weight: '36',
+  occurrence: '23 in 4900 editions (0.47 %)'
+}
+{
+  trait: 'Bighouse_doodle03',
+  weight: '24',
+  occurrence: '10 in 4900 editions (0.20 %)'
+}
+{
+  trait: 'Bighouse_doodle06',
+  weight: '15',
+  occurrence: '4 in 4900 editions (0.08 %)'
+}
+{
+  trait: 'Bighouse_doodle07',
+  weight: '34',
+  occurrence: '16 in 4900 editions (0.33 %)'
+}
+{
+  trait: 'Bighouse_doodle08',
+  weight: '39',
+  occurrence: '21 in 4900 editions (0.43 %)'
+}
+{
+  trait: 'Bighouse_doodle09',
+  weight: '58',
+  occurrence: '34 in 4900 editions (0.69 %)'
+}
+{
+  trait: 'Bighouse_doodle10',
+  weight: '46',
+  occurrence: '12 in 4900 editions (0.24 %)'
+}
+{
+  trait: 'Bighouse_doodle11',
+  weight: '38',
+  occurrence: '23 in 4900 editions (0.47 %)'
+}
+{
+  trait: 'Bighouse_doodles01',
+  weight: '46',
+  occurrence: '23 in 4900 editions (0.47 %)'
+}
+{
+  trait: 'Bighouse_doodles12',
+  weight: '39',
+  occurrence: '23 in 4900 editions (0.47 %)'
+}
+{
+  trait: 'Bighouse_doodles13',
+  weight: '48',
+  occurrence: '24 in 4900 editions (0.49 %)'
+}
+{
+  trait: 'Bighouse_doodles14',
+  weight: '48',
+  occurrence: '27 in 4900 editions (0.55 %)'
+}
+{
+  trait: 'Bighouse_doodles15',
+  weight: '46',
+  occurrence: '20 in 4900 editions (0.41 %)'
+}
+{
+  trait: 'Bighouse_doodles16',
+  weight: '42',
+  occurrence: '17 in 4900 editions (0.35 %)'
+}
+{
+  trait: 'Bighouse_yakuza1',
+  weight: '46',
+  occurrence: '20 in 4900 editions (0.41 %)'
+}
+{
+  trait: 'Bindi_citrine',
+  weight: '48',
+  occurrence: '20 in 4900 editions (0.41 %)'
+}
+{
+  trait: 'Bindi_emerald',
+  weight: '42',
+  occurrence: '12 in 4900 editions (0.24 %)'
+}
+{
+  trait: 'Bindi_onyx',
+  weight: '58',
+  occurrence: '31 in 4900 editions (0.63 %)'
+}
+{
+  trait: 'Bindi_opal',
+  weight: '86',
+  occurrence: '46 in 4900 editions (0.94 %)'
+}
+{
+  trait: 'Bindi_ruby',
+  weight: '51',
+  occurrence: '27 in 4900 editions (0.55 %)'
+}
+{
+  trait: 'Bindi_sapphire',
+  weight: '65',
+  occurrence: '39 in 4900 editions (0.80 %)'
+}
+{
+  trait: 'Black',
+  weight: '21',
+  occurrence: '8 in 4900 editions (0.16 %)'
+}
+{
+  trait: 'Black_accent',
+  weight: '36',
+  occurrence: '21 in 4900 editions (0.43 %)'
+}
+{
+  trait: 'Black_skin',
+  weight: '24',
+  occurrence: '17 in 4900 editions (0.35 %)'
+}
+{
+  trait: 'Blue',
+  weight: '23',
+  occurrence: '9 in 4900 editions (0.18 %)'
+}
+{
+  trait: 'Blue_skin',
+  weight: '24',
+  occurrence: '15 in 4900 editions (0.31 %)'
+}
+{
+  trait: 'Buy_low_sell_high',
+  weight: '42',
+  occurrence: '25 in 4900 editions (0.51 %)'
+}
+{
+  trait: 'Camo_metro',
+  weight: '28',
+  occurrence: '14 in 4900 editions (0.29 %)'
+}
+{
+  trait: 'Camo_rain',
+  weight: '42',
+  occurrence: '22 in 4900 editions (0.45 %)'
+}
+{
+  trait: 'Camo_sand',
+  weight: '32',
+  occurrence: '14 in 4900 editions (0.29 %)'
+}
+{
+  trait: 'Circuit',
+  weight: '49',
+  occurrence: '29 in 4900 editions (0.59 %)'
+}
+{
+  trait: 'Classic_black',
+  weight: '33',
+  occurrence: '13 in 4900 editions (0.27 %)'
+}
+{
+  trait: 'Classic_butter',
+  weight: '32',
+  occurrence: '20 in 4900 editions (0.41 %)'
+}
+{
+  trait: 'Classic_cream',
+  weight: '34',
+  occurrence: '16 in 4900 editions (0.33 %)'
+}
+{
+  trait: 'Classic_fawn',
+  weight: '25',
+  occurrence: '36 in 4900 editions (0.73 %)'
+}
+{
+  trait: 'Classic_fawn',
+  weight: '44',
+  occurrence: '36 in 4900 editions (0.73 %)'
+}
+{
+  trait: 'Classic_snow',
+  weight: '52',
+  occurrence: '25 in 4900 editions (0.51 %)'
+}
+{
+  trait: 'Crayon_beast',
+  weight: '21',
+  occurrence: '9 in 4900 editions (0.18 %)'
+}
+{
+  trait: 'Disco_aqua',
+  weight: '22',
+  occurrence: '12 in 4900 editions (0.24 %)'
+}
+{
+  trait: 'Disco_rose',
+  weight: '32',
+  occurrence: '19 in 4900 editions (0.39 %)'
+}
+{
+  trait: 'Disco_silver',
+  weight: '26',
+  occurrence: '15 in 4900 editions (0.31 %)'
+}
+{
+  trait: 'Disco_wine',
+  weight: '24',
+  occurrence: '8 in 4900 editions (0.16 %)'
+}
+{
+  trait: 'Dots_black',
+  weight: '35',
+  occurrence: '13 in 4900 editions (0.27 %)'
+}
+{
+  trait: 'Dots_indigo',
+  weight: '36',
+  occurrence: '17 in 4900 editions (0.35 %)'
+}
+{
+  trait: 'Dots_white',
+  weight: '54',
+  occurrence: '32 in 4900 editions (0.65 %)'
+}
+{
+  trait: 'Fawn',
+  weight: '23',
+  occurrence: '13 in 4900 editions (0.27 %)'
+}
+{
+  trait: 'Fawn_accent',
+  weight: '31',
+  occurrence: '11 in 4900 editions (0.22 %)'
+}
+{
+  trait: 'Fawn_skin',
+  weight: '24',
+  occurrence: '14 in 4900 editions (0.29 %)'
+}
+{
+  trait: 'Fever_delta',
+  weight: '44',
+  occurrence: '23 in 4900 editions (0.47 %)'
+}
+{
+  trait: 'Fever_mu',
+  weight: '44',
+  occurrence: '33 in 4900 editions (0.67 %)'
+}
+{
+  trait: 'Fever_nu',
+  weight: '34',
+  occurrence: '14 in 4900 editions (0.29 %)'
+}
+{
+  trait: 'Fever_xi',
+  weight: '44',
+  occurrence: '23 in 4900 editions (0.47 %)'
+}
+{
+  trait: 'Flamingo',
+  weight: '23',
+  occurrence: '14 in 4900 editions (0.29 %)'
+}
+{
+  trait: 'Flamingo_skin',
+  weight: '26',
+  occurrence: '13 in 4900 editions (0.27 %)'
+}
+{
+  trait: 'Futura',
+  weight: '36',
+  occurrence: '21 in 4900 editions (0.43 %)'
+}
+{
+  trait: 'Hornet_honey',
+  weight: '15',
+  occurrence: '7 in 4900 editions (0.14 %)'
+}
+{
+  trait: 'Hornet_snow',
+  weight: '18',
+  occurrence: '10 in 4900 editions (0.20 %)'
+}
+{
+  trait: 'Ink_beast',
+  weight: '26',
+  occurrence: '12 in 4900 editions (0.24 %)'
+}
+{
+  trait: 'Lab_breaker_blue',
+  weight: '26',
+  occurrence: '10 in 4900 editions (0.20 %)'
+}
+{
+  trait: 'Lab_breaker_fawn',
+  weight: '35',
+  occurrence: '23 in 4900 editions (0.47 %)'
+}
+{
+  trait: 'Lilac',
+  weight: '23',
+  occurrence: '17 in 4900 editions (0.35 %)'
+}
+{
+  trait: 'Lilac_skin',
+  weight: '28',
+  occurrence: '15 in 4900 editions (0.31 %)'
+}
+{
+  trait: 'Mackerel_cream',
+  weight: '39',
+  occurrence: '22 in 4900 editions (0.45 %)'
+}
+{
+  trait: 'Mackerel_grey',
+  weight: '39',
+  occurrence: '14 in 4900 editions (0.29 %)'
+}
+{
+  trait: 'Mark_vbeige',
+  weight: '42',
+  occurrence: '14 in 4900 editions (0.29 %)'
+}
+{
+  trait: 'Mark_v_grey',
+  weight: '42',
+  occurrence: '22 in 4900 editions (0.45 %)'
+}
+{
+  trait: 'Metro',
+  weight: '24',
+  occurrence: '9 in 4900 editions (0.18 %)'
+}
+{
+  trait: 'Metro_direction',
+  weight: '39',
+  occurrence: '18 in 4900 editions (0.37 %)'
+}
+{
+  trait: 'Milk_beast',
+  weight: '34',
+  occurrence: '14 in 4900 editions (0.29 %)'
+}
+{
+  trait: 'Mini_diamonds',
+  weight: '48',
+  occurrence: '27 in 4900 editions (0.55 %)'
+}
+{
+  trait: 'Mini_hearts',
+  weight: '48',
+  occurrence: '26 in 4900 editions (0.53 %)'
+}
+{
+  trait: 'Mist',
+  weight: '39',
+  occurrence: '26 in 4900 editions (0.53 %)'
+}
+{
+  trait: 'Mud',
+  weight: '38',
+  occurrence: '24 in 4900 editions (0.49 %)'
+}
+{
+  trait: 'Muzzle_blk',
+  weight: '24',
+  occurrence: '8 in 4900 editions (0.16 %)'
+}
+{
+  trait: 'Muzzle_blue',
+  weight: '24',
+  occurrence: '16 in 4900 editions (0.33 %)'
+}
+{
+  trait: 'Muzzle_butter',
+  weight: '24',
+  occurrence: '12 in 4900 editions (0.24 %)'
+}
+{
+  trait: 'Muzzle_chocolate',
+  weight: '38',
+  occurrence: '27 in 4900 editions (0.55 %)'
+}
+{
+  trait: 'Muzzle_cinnamon',
+  weight: '38',
+  occurrence: '10 in 4900 editions (0.20 %)'
+}
+{
+  trait: 'Muzzle_cobalt',
+  weight: '24',
+  occurrence: '13 in 4900 editions (0.27 %)'
+}
+{
+  trait: 'Muzzle_cream',
+  weight: '38',
+  occurrence: '34 in 4900 editions (0.69 %)'
+}
+{
+  trait: 'Muzzle_crocodile',
+  weight: '26',
+  occurrence: '17 in 4900 editions (0.35 %)'
+}
+{
+  trait: 'Muzzle_fawn',
+  weight: '38',
+  occurrence: '24 in 4900 editions (0.49 %)'
+}
+{
+  trait: 'Muzzle_flamingo',
+  weight: '22',
+  occurrence: '10 in 4900 editions (0.20 %)'
+}
+{
+  trait: 'Muzzle_grey',
+  weight: '22',
+  occurrence: '6 in 4900 editions (0.12 %)'
+}
+{
+  trait: 'Muzzle_indigo',
+  weight: '22',
+  occurrence: '14 in 4900 editions (0.29 %)'
+}
+{
+  trait: 'Muzzle_lavender',
+  weight: '22',
+  occurrence: '10 in 4900 editions (0.20 %)'
+}
+{
+  trait: 'Muzzle_lilac',
+  weight: '38',
+  occurrence: '12 in 4900 editions (0.24 %)'
+}
+{
+  trait: 'Muzzle_olive',
+  weight: '25',
+  occurrence: '10 in 4900 editions (0.20 %)'
+}
+{
+  trait: 'Muzzle_snow',
+  weight: '28',
+  occurrence: '17 in 4900 editions (0.35 %)'
+}
+{
+  trait: 'Muzzle_violet',
+  weight: '22',
+  occurrence: '11 in 4900 editions (0.22 %)'
+}
+{
+  trait: 'Muzzle_wht',
+  weight: '25',
+  occurrence: '15 in 4900 editions (0.31 %)'
+}
+{
+  trait: 'None',
+  weight: '4248',
+  occurrence: '2160 in 4900 editions (44.08 %)'
+}
+{
+  trait: 'Nose_blk',
+  weight: '35',
+  occurrence: '25 in 4900 editions (0.51 %)'
+}
+{
+  trait: 'Nose_blue',
+  weight: '26',
+  occurrence: '13 in 4900 editions (0.27 %)'
+}
+{
+  trait: 'Nose_butter',
+  weight: '33',
+  occurrence: '15 in 4900 editions (0.31 %)'
+}
+{
+  trait: 'Nose_cinnamon',
+  weight: '31',
+  occurrence: '14 in 4900 editions (0.29 %)'
+}
+{
+  trait: 'Nose_cobalt',
+  weight: '31',
+  occurrence: '12 in 4900 editions (0.24 %)'
+}
+{
+  trait: 'Nose_cream',
+  weight: '38',
+  occurrence: '22 in 4900 editions (0.45 %)'
+}
+{
+  trait: 'Nose_crocodile',
+  weight: '26',
+  occurrence: '10 in 4900 editions (0.20 %)'
+}
+{
+  trait: 'Nose_fawn',
+  weight: '28',
+  occurrence: '14 in 4900 editions (0.29 %)'
+}
+{
+  trait: 'Nose_flamingo',
+  weight: '26',
+  occurrence: '16 in 4900 editions (0.33 %)'
+}
+{
+  trait: 'Nose_grey',
+  weight: '33',
+  occurrence: '12 in 4900 editions (0.24 %)'
+}
+{
+  trait: 'Nose_lavender',
+  weight: '32',
+  occurrence: '12 in 4900 editions (0.24 %)'
+}
+{
+  trait: 'Nose_lilac',
+  weight: '35',
+  occurrence: '19 in 4900 editions (0.39 %)'
+}
+{
+  trait: 'Nose_olive',
+  weight: '26',
+  occurrence: '11 in 4900 editions (0.22 %)'
+}
+{
+  trait: 'Nose_snow',
+  weight: '24',
+  occurrence: '9 in 4900 editions (0.18 %)'
+}
+{
+  trait: 'Nose_violet',
+  weight: '36',
+  occurrence: '22 in 4900 editions (0.45 %)'
+}
+{
+  trait: 'Nose_wht',
+  weight: '38',
+  occurrence: '23 in 4900 editions (0.47 %)'
+}
+{
+  trait: 'Panda_blk',
+  weight: '34',
+  occurrence: '16 in 4900 editions (0.33 %)'
+}
+{
+  trait: 'Panda_wht',
+  weight: '38',
+  occurrence: '17 in 4900 editions (0.35 %)'
+}
+{
+  trait: 'Pollock',
+  weight: '36',
+  occurrence: '28 in 4900 editions (0.57 %)'
+}
+{
+  trait: 'Shiver1',
+  weight: '46',
+  occurrence: '27 in 4900 editions (0.55 %)'
+}
+{
+  trait: 'Silky_dawn',
+  weight: '36',
+  occurrence: '16 in 4900 editions (0.33 %)'
+}
+{
+  trait: 'Silky_dusk',
+  weight: '38',
+  occurrence: '21 in 4900 editions (0.43 %)'
+}
+{
+  trait: 'Snakescale_green',
+  weight: '36',
+  occurrence: '14 in 4900 editions (0.29 %)'
+}
+{
+  trait: 'Snakescale_orange',
+  weight: '38',
+  occurrence: '10 in 4900 editions (0.20 %)'
+}
+{
+  trait: 'Snout_blk',
+  weight: '26',
+  occurrence: '18 in 4900 editions (0.37 %)'
+}
+{
+  trait: 'Snout_blue',
+  weight: '28',
+  occurrence: '19 in 4900 editions (0.39 %)'
+}
+{
+  trait: 'Snout_chocolate',
+  weight: '25',
+  occurrence: '15 in 4900 editions (0.31 %)'
+}
+{
+  trait: 'Snout_cinnamon',
+  weight: '35',
+  occurrence: '21 in 4900 editions (0.43 %)'
+}
+{
+  trait: 'Snout_cobalt',
+  weight: '29',
+  occurrence: '15 in 4900 editions (0.31 %)'
+}
+{
+  trait: 'Snout_fawn',
+  weight: '28',
+  occurrence: '14 in 4900 editions (0.29 %)'
+}
+{
+  trait: 'Snout_flamingo',
+  weight: '24',
+  occurrence: '13 in 4900 editions (0.27 %)'
+}
+{
+  trait: 'Snout_grey',
+  weight: '29',
+  occurrence: '11 in 4900 editions (0.22 %)'
+}
+{
+  trait: 'Snout_lavender',
+  weight: '29',
+  occurrence: '12 in 4900 editions (0.24 %)'
+}
+{
+  trait: 'Snout_snow',
+  weight: '26',
+  occurrence: '12 in 4900 editions (0.24 %)'
+}
+{
+  trait: 'Snout_violet',
+  weight: '28',
+  occurrence: '10 in 4900 editions (0.20 %)'
+}
+{
+  trait: 'Snout_wht',
+  weight: '27',
+  occurrence: '17 in 4900 editions (0.35 %)'
+}
+{
+  trait: 'Striped_blk',
+  weight: '42',
+  occurrence: '30 in 4900 editions (0.61 %)'
+}
+{
+  trait: 'Terrain_ice',
+  weight: '38',
+  occurrence: '21 in 4900 editions (0.43 %)'
+}
+{
+  trait: 'Terrain_mudhill',
+  weight: '28',
+  occurrence: '13 in 4900 editions (0.27 %)'
+}
+{
+  trait: 'Terrain_orangehill',
+  weight: '28',
+  occurrence: '15 in 4900 editions (0.31 %)'
+}
+{
+  trait: 'Tribe',
+  weight: '36',
+  occurrence: '22 in 4900 editions (0.45 %)'
+}
+{
+  trait: 'V_forever',
+  weight: '48',
+  occurrence: '28 in 4900 editions (0.57 %)'
+}
+{
+  trait: 'Whip_cream',
+  weight: '36',
+  occurrence: '21 in 4900 editions (0.43 %)'
+}
+{
+  trait: 'White',
+  weight: '23',
+  occurrence: '15 in 4900 editions (0.31 %)'
+}
+{
+  trait: 'White_accent',
+  weight: '24',
+  occurrence: '8 in 4900 editions (0.16 %)'
+}
+
+Trait type: Accesory
+{
+  trait: 'Arming_cap_commander',
+  weight: '38',
+  occurrence: '36 in 4900 editions (0.73 %)'
+}
+{
+  trait: 'Arming_cap_medic',
+  weight: '35',
+  occurrence: '26 in 4900 editions (0.53 %)'
+}
+{
+  trait: 'Arming_cap_sniper',
+  weight: '32',
+  occurrence: '27 in 4900 editions (0.55 %)'
+}
+{
+  trait: 'Bandage_ear_l',
+  weight: '46',
+  occurrence: '38 in 4900 editions (0.78 %)'
+}
+{
+  trait: 'Bandage_ear_r',
+  weight: '54',
+  occurrence: '33 in 4900 editions (0.67 %)'
+}
+{
+  trait: 'Beanie_blk',
+  weight: '63',
+  occurrence: '50 in 4900 editions (1.02 %)'
+}
+{
+  trait: 'Beanie_brown',
+  weight: '54',
+  occurrence: '46 in 4900 editions (0.94 %)'
+}
+{
+  trait: 'Beanie_neon',
+  weight: '44',
+  occurrence: '32 in 4900 editions (0.65 %)'
+}
+{
+  trait: 'Beanie_wht',
+  weight: '59',
+  occurrence: '34 in 4900 editions (0.69 %)'
+}
+{
+  trait: 'Diablo',
+  weight: '36',
+  occurrence: '28 in 4900 editions (0.57 %)'
+}
+{
+  trait: 'Earclips_inner_red',
+  weight: '34',
+  occurrence: '29 in 4900 editions (0.59 %)'
+}
+{
+  trait: 'Earclips_outter_red',
+  weight: '48',
+  occurrence: '35 in 4900 editions (0.71 %)'
+}
+{
+  trait: 'Earclip_inner_r_carbon',
+  weight: '48',
+  occurrence: '42 in 4900 editions (0.86 %)'
+}
+{
+  trait: 'Earclip_inner_r_gold',
+  weight: '46',
+  occurrence: '31 in 4900 editions (0.63 %)'
+}
+{
+  trait: 'Earclip_inner_r_silver',
+  weight: '42',
+  occurrence: '29 in 4900 editions (0.59 %)'
+}
+{
+  trait: 'Earplugs_carbon',
+  weight: '58',
+  occurrence: '41 in 4900 editions (0.84 %)'
+}
+{
+  trait: 'Earplugs_red',
+  weight: '48',
+  occurrence: '36 in 4900 editions (0.73 %)'
+}
+{
+  trait: 'Earplugs_silver',
+  weight: '68',
+  occurrence: '47 in 4900 editions (0.96 %)'
+}
+{
+  trait: 'Horn_unicorn',
+  weight: '36',
+  occurrence: '36 in 4900 editions (0.73 %)'
+}
+{
+  trait: 'Implants_2horns',
+  weight: '48',
+  occurrence: '37 in 4900 editions (0.76 %)'
+}
+{
+  trait: 'Implants_bolts_outter',
+  weight: '42',
+  occurrence: '36 in 4900 editions (0.73 %)'
+}
+{
+  trait: 'Implants_diablo_outter',
+  weight: '46',
+  occurrence: '29 in 4900 editions (0.59 %)'
+}
+{
+  trait: 'Implants_full_bolts',
+  weight: '46',
+  occurrence: '23 in 4900 editions (0.47 %)'
+}
+{
+  trait: 'Implants_horns',
+  weight: '42',
+  occurrence: '35 in 4900 editions (0.71 %)'
+}
+{
+  trait: 'Implants_l2_booster',
+  weight: '24',
+  occurrence: '20 in 4900 editions (0.41 %)'
+}
+{
+  trait: 'Implants_outter_horns',
+  weight: '59',
+  occurrence: '34 in 4900 editions (0.69 %)'
+}
+{
+  trait: 'Implants_plate',
+  weight: '42',
+  occurrence: '35 in 4900 editions (0.71 %)'
+}
+{
+  trait: 'Implants_side_horns',
+  weight: '58',
+  occurrence: '51 in 4900 editions (1.04 %)'
+}
+{
+  trait: 'M1_smile',
+  weight: '39',
+  occurrence: '39 in 4900 editions (0.80 %)'
+}
+{
+  trait: 'M1_topcat',
+  weight: '38',
+  occurrence: '29 in 4900 editions (0.59 %)'
+}
+{
+  trait: 'Mohawk_blk',
+  weight: '36',
+  occurrence: '30 in 4900 editions (0.61 %)'
+}
+{
+  trait: 'Mohawk_diablo',
+  weight: '31',
+  occurrence: '22 in 4900 editions (0.45 %)'
+}
+{
+  trait: 'Mohawk_punk_gold',
+  weight: '38',
+  occurrence: '35 in 4900 editions (0.71 %)'
+}
+{
+  trait: 'Mohawk_punk_neon',
+  weight: '36',
+  occurrence: '24 in 4900 editions (0.49 %)'
+}
+{
+  trait: 'Mohawk_punk_pink',
+  weight: '38',
+  occurrence: '28 in 4900 editions (0.57 %)'
+}
+{
+  trait: 'Mohawk_punk_red',
+  weight: '28',
+  occurrence: '19 in 4900 editions (0.39 %)'
+}
+{
+  trait: 'Mohawk_wht',
+  weight: '36',
+  occurrence: '29 in 4900 editions (0.59 %)'
+}
+{
+  trait: 'Moto_helmet_blk',
+  weight: '33',
+  occurrence: '22 in 4900 editions (0.45 %)'
+}
+{
+  trait: 'Moto_helmet_wht',
+  weight: '36',
+  occurrence: '23 in 4900 editions (0.47 %)'
+}
+{
+  trait: 'Moto_helmet_yellow',
+  weight: '36',
+  occurrence: '28 in 4900 editions (0.57 %)'
+}
+{
+  trait: 'Nomad_wig',
+  weight: '36',
+  occurrence: '38 in 4900 editions (0.78 %)'
+}
+{
+  trait: 'Nomad_wig_silver',
+  weight: '28',
+  occurrence: '23 in 4900 editions (0.47 %)'
+}
+{
+  trait: 'none',
+  weight: '4200',
+  occurrence: '0 in 4900 editions (0.00 %)'
+}
+{
+  trait: 'Party_cap',
+  weight: '33',
+  occurrence: '35 in 4900 editions (0.71 %)'
+}
+{
+  trait: 'Party_cap_green',
+  weight: '36',
+  occurrence: '34 in 4900 editions (0.69 %)'
+}
+{
+  trait: 'Party_cap_yellow',
+  weight: '35',
+  occurrence: '36 in 4900 editions (0.73 %)'
+}
+{
+  trait: 'Pimp_gold',
+  weight: '38',
+  occurrence: '26 in 4900 editions (0.53 %)'
+}
+
+Trait type: Clothing
+{
+  trait: '2faces_blk_leather',
+  weight: '28',
+  occurrence: '11 in 4900 editions (0.22 %)'
+}
+{
+  trait: '2faces_blk_tactical',
+  weight: '36',
+  occurrence: '15 in 4900 editions (0.31 %)'
+}
+{
+  trait: '2faces_chocker',
+  weight: '38',
+  occurrence: '11 in 4900 editions (0.22 %)'
+}
+{
+  trait: '2faces_grey_ribbon',
+  weight: '24',
+  occurrence: '10 in 4900 editions (0.20 %)'
+}
+{
+  trait: '2faces_leather',
+  weight: '28',
+  occurrence: '14 in 4900 editions (0.29 %)'
+}
+{
+  trait: '2faces_wht_leather',
+  weight: '31',
+  occurrence: '17 in 4900 editions (0.35 %)'
+}
+{
+  trait: '2faces_wht_msgbag',
+  weight: '35',
+  occurrence: '10 in 4900 editions (0.20 %)'
+}
+{
+  trait: '2faces_wht_tactical',
+  weight: '36',
+  occurrence: '20 in 4900 editions (0.41 %)'
+}
+{
+  trait: '2face_blk',
+  weight: '24',
+  occurrence: '14 in 4900 editions (0.29 %)'
+}
+{
+  trait: '2face_blk_headphones_blk',
+  weight: '35',
+  occurrence: '15 in 4900 editions (0.31 %)'
+}
+{
+  trait: '2face_grey',
+  weight: '38',
+  occurrence: '18 in 4900 editions (0.37 %)'
+}
+{
+  trait: '2face_headphones_blk',
+  weight: '44',
+  occurrence: '18 in 4900 editions (0.37 %)'
+}
+{
+  trait: '2face_headphones_pink',
+  weight: '34',
+  occurrence: '7 in 4900 editions (0.14 %)'
+}
+{
+  trait: '2face_wht',
+  weight: '39',
+  occurrence: '21 in 4900 editions (0.43 %)'
+}
+{
+  trait: '2face_wht_headphones',
+  weight: '24',
+  occurrence: '11 in 4900 editions (0.22 %)'
+}
+{
+  trait: 'Acid_raincoat',
+  weight: '36',
+  occurrence: '20 in 4900 editions (0.41 %)'
+}
+{
+  trait: 'Acid_snowcoat',
+  weight: '33',
+  occurrence: '9 in 4900 editions (0.18 %)'
+}
+{
+  trait: 'Activist',
+  weight: '36',
+  occurrence: '11 in 4900 editions (0.22 %)'
+}
+{
+  trait: 'Activist_chaser',
+  weight: '36',
+  occurrence: '12 in 4900 editions (0.24 %)'
+}
+{
+  trait: 'Adventure_cape_ash',
+  weight: '36',
+  occurrence: '19 in 4900 editions (0.39 %)'
+}
+{
+  trait: 'Adventure_cape_snow',
+  weight: '48',
+  occurrence: '20 in 4900 editions (0.41 %)'
+}
+{
+  trait: 'AircatT_bandage',
+  weight: '31',
+  occurrence: '13 in 4900 editions (0.27 %)'
+}
+{
+  trait: 'AircatT_blue',
+  weight: '35',
+  occurrence: '13 in 4900 editions (0.27 %)'
+}
+{
+  trait: 'AircatT_grey',
+  weight: '40',
+  occurrence: '14 in 4900 editions (0.29 %)'
+}
+{
+  trait: 'AircatT_headphones',
+  weight: '35',
+  occurrence: '18 in 4900 editions (0.37 %)'
+}
+{
+  trait: 'AircatT_pink',
+  weight: '35',
+  occurrence: '16 in 4900 editions (0.33 %)'
+}
+{
+  trait: 'AircatT_pink_headphones',
+  weight: '23',
+  occurrence: '9 in 4900 editions (0.18 %)'
+}
+{
+  trait: 'AircatT_wht',
+  weight: '30',
+  occurrence: '15 in 4900 editions (0.31 %)'
+}
+{
+  trait: 'AircatT_wht_scarf_camo',
+  weight: '32',
+  occurrence: '16 in 4900 editions (0.33 %)'
+}
+{
+  trait: 'Ambushied',
+  weight: '1',
+  occurrence: '0 in 4900 editions (0.00 %)'
+}
+{
+  trait: 'Apron_referee',
+  weight: '31',
+  occurrence: '9 in 4900 editions (0.18 %)'
+}
+{
+  trait: 'Apron_tuxedo_blk',
+  weight: '36',
+  occurrence: '17 in 4900 editions (0.35 %)'
+}
+{
+  trait: 'Apron_tuxedo_red',
+  weight: '42',
+  occurrence: '19 in 4900 editions (0.39 %)'
+}
+{
+  trait: 'Arriviste_blazer',
+  weight: '31',
+  occurrence: '9 in 4900 editions (0.18 %)'
+}
+{
+  trait: 'Bachelor_blazer_scarf',
+  weight: '35',
+  occurrence: '16 in 4900 editions (0.33 %)'
+}
+{
+  trait: 'Bachelor_blazer_vneck',
+  weight: '35',
+  occurrence: '12 in 4900 editions (0.24 %)'
+}
+{
+  trait: 'Bachelor_formal',
+  weight: '34',
+  occurrence: '10 in 4900 editions (0.20 %)'
+}
+{
+  trait: 'Blk_strap_blue_scarf',
+  weight: '38',
+  occurrence: '15 in 4900 editions (0.31 %)'
+}
+{
+  trait: 'Blk_strap_camo_scarf',
+  weight: '38',
+  occurrence: '16 in 4900 editions (0.33 %)'
+}
+{
+  trait: 'Blk_strap_peach_scarf',
+  weight: '35',
+  occurrence: '17 in 4900 editions (0.35 %)'
+}
+{
+  trait: 'Blk_strap_yellow_scarf',
+  weight: '34',
+  occurrence: '13 in 4900 editions (0.27 %)'
+}
+{
+  trait: 'BlueT_tactical',
+  weight: '31',
+  occurrence: '16 in 4900 editions (0.33 %)'
+}
+{
+  trait: 'Bone_olive_nomad',
+  weight: '31',
+  occurrence: '17 in 4900 editions (0.35 %)'
+}
+{
+  trait: 'Bone_pink_nomad',
+  weight: '28',
+  occurrence: '8 in 4900 editions (0.16 %)'
+}
+{
+  trait: 'Bone_sleeve_olive',
+  weight: '31',
+  occurrence: '14 in 4900 editions (0.29 %)'
+}
+{
+  trait: 'Bone_sleeve_pink',
+  weight: '31',
+  occurrence: '10 in 4900 editions (0.20 %)'
+}
+{
+  trait: 'Cardboard',
+  weight: '36',
+  occurrence: '19 in 4900 editions (0.39 %)'
+}
+{
+  trait: 'Cardboard_nomad',
+  weight: '21',
+  occurrence: '10 in 4900 editions (0.20 %)'
+}
+{
+  trait: 'Cardboard_tuxedo',
+  weight: '21',
+  occurrence: '10 in 4900 editions (0.20 %)'
+}
+{
+  trait: 'Cardigan_choco',
+  weight: '39',
+  occurrence: '25 in 4900 editions (0.51 %)'
+}
+{
+  trait: 'Cardigan_choco_hemp_grey',
+  weight: '36',
+  occurrence: '15 in 4900 editions (0.31 %)'
+}
+{
+  trait: 'Cardigan_cream',
+  weight: '43',
+  occurrence: '17 in 4900 editions (0.35 %)'
+}
+{
+  trait: 'Cardigan_hemp_blue',
+  weight: '26',
+  occurrence: '11 in 4900 editions (0.22 %)'
+}
+{
+  trait: 'Cardigan_mint_hemp_grey',
+  weight: '24',
+  occurrence: '8 in 4900 editions (0.16 %)'
+}
+{
+  trait: 'Catastrophic_pink',
+  weight: '42',
+  occurrence: '16 in 4900 editions (0.33 %)'
+}
+{
+  trait: 'Catastrophic_wht',
+  weight: '42',
+  occurrence: '22 in 4900 editions (0.45 %)'
+}
+{
+  trait: 'Cold_wallet_blk',
+  weight: '38',
+  occurrence: '22 in 4900 editions (0.45 %)'
+}
+{
+  trait: 'Cold_wallet_green',
+  weight: '33',
+  occurrence: '12 in 4900 editions (0.24 %)'
+}
+{
+  trait: 'Cold_wallet_red',
+  weight: '43',
+  occurrence: '23 in 4900 editions (0.47 %)'
+}
+{
+  trait: 'Detective_apron_gold',
+  weight: '36',
+  occurrence: '20 in 4900 editions (0.41 %)'
+}
+{
+  trait: 'Detective_bandage',
+  weight: '31',
+  occurrence: '9 in 4900 editions (0.18 %)'
+}
+{
+  trait: 'Detective_blk',
+  weight: '34',
+  occurrence: '10 in 4900 editions (0.20 %)'
+}
+{
+  trait: 'Detective_blk_apron_gold',
+  weight: '36',
+  occurrence: '10 in 4900 editions (0.20 %)'
+}
+{
+  trait: 'Detective_blk_holster',
+  weight: '36',
+  occurrence: '14 in 4900 editions (0.29 %)'
+}
+{
+  trait: 'Detective_blk_msgbag_orange',
+  weight: '35',
+  occurrence: '11 in 4900 editions (0.22 %)'
+}
+{
+  trait: 'Detective_blk_msgbag_purple',
+  weight: '35',
+  occurrence: '16 in 4900 editions (0.33 %)'
+}
+{
+  trait: 'Detective_blk_msgbag_wht',
+  weight: '35',
+  occurrence: '12 in 4900 editions (0.24 %)'
+}
+{
+  trait: 'Detective_blk_strap_grey',
+  weight: '24',
+  occurrence: '10 in 4900 editions (0.20 %)'
+}
+{
+  trait: 'Detective_blk_tactical',
+  weight: '35',
+  occurrence: '25 in 4900 editions (0.51 %)'
+}
+{
+  trait: 'Detective_blk_tactical',
+  weight: '44',
+  occurrence: '25 in 4900 editions (0.51 %)'
+}
+{
+  trait: 'Detective_blue_msgbag_blk',
+  weight: '15',
+  occurrence: '4 in 4900 editions (0.08 %)'
+}
+{
+  trait: 'Detective_blue_msgbag_wht',
+  weight: '35',
+  occurrence: '16 in 4900 editions (0.33 %)'
+}
+{
+  trait: 'Detective_blue_strap_wht',
+  weight: '28',
+  occurrence: '10 in 4900 editions (0.20 %)'
+}
+{
+  trait: 'Detective_bowtie_wht',
+  weight: '33',
+  occurrence: '14 in 4900 editions (0.29 %)'
+}
+{
+  trait: 'Detective_bowtie_yellow',
+  weight: '33',
+  occurrence: '20 in 4900 editions (0.41 %)'
+}
+{
+  trait: 'Detective_glowstick',
+  weight: '31',
+  occurrence: '13 in 4900 editions (0.27 %)'
+}
+{
+  trait: 'Detective_hoster',
+  weight: '36',
+  occurrence: '25 in 4900 editions (0.51 %)'
+}
+{
+  trait: 'Detective_suit',
+  weight: '43',
+  occurrence: '12 in 4900 editions (0.24 %)'
+}
+{
+  trait: 'Detective_wht',
+  weight: '42',
+  occurrence: '12 in 4900 editions (0.24 %)'
+}
+{
+  trait: 'Dj_blazer',
+  weight: '34',
+  occurrence: '13 in 4900 editions (0.27 %)'
+}
+{
+  trait: 'Dj_shirts',
+  weight: '34',
+  occurrence: '14 in 4900 editions (0.29 %)'
+}
+{
+  trait: 'Dot_cape',
+  weight: '38',
+  occurrence: '17 in 4900 editions (0.35 %)'
+}
+{
+  trait: 'Dragon_jumpsuit',
+  weight: '26',
+  occurrence: '10 in 4900 editions (0.20 %)'
+}
+{
+  trait: 'Errand_cape_snow',
+  weight: '28',
+  occurrence: '4 in 4900 editions (0.08 %)'
+}
+{
+  trait: 'Football_jacket_3cats',
+  weight: '31',
+  occurrence: '10 in 4900 editions (0.20 %)'
+}
+{
+  trait: 'Goldchain_blue_scarf',
+  weight: '23',
+  occurrence: '8 in 4900 editions (0.16 %)'
+}
+{
+  trait: 'Goldchain_peach_scarf',
+  weight: '33',
+  occurrence: '10 in 4900 editions (0.20 %)'
+}
+{
+  trait: 'Goldchain_tuxedo_gold',
+  weight: '26',
+  occurrence: '11 in 4900 editions (0.22 %)'
+}
+{
+  trait: 'Goldchain_white_scarf',
+  weight: '22',
+  occurrence: '9 in 4900 editions (0.18 %)'
+}
+{
+  trait: 'Greco_roman_blk',
+  weight: '38',
+  occurrence: '21 in 4900 editions (0.43 %)'
+}
+{
+  trait: 'Greco_roman_blue',
+  weight: '34',
+  occurrence: '21 in 4900 editions (0.43 %)'
+}
+{
+  trait: 'Greco_roman_glowstick',
+  weight: '28',
+  occurrence: '12 in 4900 editions (0.24 %)'
+}
+{
+  trait: 'Greco_roman_headphones',
+  weight: '34',
+  occurrence: '13 in 4900 editions (0.27 %)'
+}
+{
+  trait: 'Greco_roman_yellow',
+  weight: '24',
+  occurrence: '13 in 4900 editions (0.27 %)'
+}
+{
+  trait: 'Hemp_shirts_headphones',
+  weight: '48',
+  occurrence: '22 in 4900 editions (0.45 %)'
+}
+{
+  trait: 'Holiday_capelet',
+  weight: '34',
+  occurrence: '10 in 4900 editions (0.20 %)'
+}
+{
+  trait: 'Hoodie_blk',
+  weight: '49',
+  occurrence: '21 in 4900 editions (0.43 %)'
+}
+{
+  trait: 'Hoodie_glowstick',
+  weight: '25',
+  occurrence: '14 in 4900 editions (0.29 %)'
+}
+{
+  trait: 'Hoodie_pink_glowstick',
+  weight: '28',
+  occurrence: '9 in 4900 editions (0.18 %)'
+}
+{
+  trait: 'Industrial_capelet',
+  weight: '24',
+  occurrence: '11 in 4900 editions (0.22 %)'
+}
+{
+  trait: 'Industrial_vest',
+  weight: '38',
+  occurrence: '15 in 4900 editions (0.31 %)'
+}
+{
+  trait: 'Jumper_blk',
+  weight: '46',
+  occurrence: '22 in 4900 editions (0.45 %)'
+}
+{
+  trait: 'Jumper_blue',
+  weight: '48',
+  occurrence: '24 in 4900 editions (0.49 %)'
+}
+{
+  trait: 'Jumper_cold_wallet_blk',
+  weight: '26',
+  occurrence: '14 in 4900 editions (0.29 %)'
+}
+{
+  trait: 'Jumper_cold_wallet_red',
+  weight: '29',
+  occurrence: '9 in 4900 editions (0.18 %)'
+}
+{
+  trait: 'Jumper_green',
+  weight: '42',
+  occurrence: '21 in 4900 editions (0.43 %)'
+}
+{
+  trait: 'Jumper_red',
+  weight: '58',
+  occurrence: '27 in 4900 editions (0.55 %)'
+}
+{
+  trait: 'Kimono_cmc',
+  weight: '28',
+  occurrence: '10 in 4900 editions (0.20 %)'
+}
+{
+  trait: 'LogoT_blk',
+  weight: '42',
+  occurrence: '16 in 4900 editions (0.33 %)'
+}
+{
+  trait: 'LogoT_blk_apron_smile',
+  weight: '38',
+  occurrence: '19 in 4900 editions (0.39 %)'
+}
+{
+  trait: 'LogoT_blk_bowtie_red',
+  weight: '24',
+  occurrence: '8 in 4900 editions (0.16 %)'
+}
+{
+  trait: 'LogoT_blk_bowtie_wht',
+  weight: '22',
+  occurrence: '4 in 4900 editions (0.08 %)'
+}
+{
+  trait: 'LogoT_blk_bowtie_yellow',
+  weight: '31',
+  occurrence: '12 in 4900 editions (0.24 %)'
+}
+{
+  trait: 'LogoT_blk_chain',
+  weight: '58',
+  occurrence: '21 in 4900 editions (0.43 %)'
+}
+{
+  trait: 'LogoT_blk_chain_gold',
+  weight: '24',
+  occurrence: '11 in 4900 editions (0.22 %)'
+}
+{
+  trait: 'LogoT_blk_chocker',
+  weight: '48',
+  occurrence: '14 in 4900 editions (0.29 %)'
+}
+{
+  trait: 'LogoT_blk_headphones',
+  weight: '38',
+  occurrence: '10 in 4900 editions (0.20 %)'
+}
+{
+  trait: 'LogoT_blk_nomad',
+  weight: '24',
+  occurrence: '10 in 4900 editions (0.20 %)'
+}
+{
+  trait: 'LogoT_blk_rope',
+  weight: '36',
+  occurrence: '14 in 4900 editions (0.29 %)'
+}
+{
+  trait: 'LogoT_blk_scarf_blue',
+  weight: '31',
+  occurrence: '5 in 4900 editions (0.10 %)'
+}
+{
+  trait: 'LogoT_blk_scarf_camo',
+  weight: '35',
+  occurrence: '16 in 4900 editions (0.33 %)'
+}
+{
+  trait: 'LogoT_blk_scarf_ghost',
+  weight: '45',
+  occurrence: '18 in 4900 editions (0.37 %)'
+}
+{
+  trait: 'LogoT_blk_scarf_grey',
+  weight: '59',
+  occurrence: '24 in 4900 editions (0.49 %)'
+}
+{
+  trait: 'LogoT_blk_scarf_peach',
+  weight: '35',
+  occurrence: '20 in 4900 editions (0.41 %)'
+}
+{
+  trait: 'LogoT_blk_scarf_shock',
+  weight: '48',
+  occurrence: '21 in 4900 editions (0.43 %)'
+}
+{
+  trait: 'LogoT_blk_scarf_skull',
+  weight: '35',
+  occurrence: '13 in 4900 editions (0.27 %)'
+}
+{
+  trait: 'LogoT_blk_scarf_smile',
+  weight: '25',
+  occurrence: '5 in 4900 editions (0.10 %)'
+}
+{
+  trait: 'LogoT_blk_scarf_yellow',
+  weight: '45',
+  occurrence: '18 in 4900 editions (0.37 %)'
+}
+{
+  trait: 'LogoT_blk_silkscarf_ghost',
+  weight: '38',
+  occurrence: '19 in 4900 editions (0.39 %)'
+}
+{
+  trait: 'LogoT_blk_strap_red',
+  weight: '34',
+  occurrence: '16 in 4900 editions (0.33 %)'
+}
+{
+  trait: 'LogoT_blk_strap_wht',
+  weight: '46',
+  occurrence: '32 in 4900 editions (0.65 %)'
+}
+{
+  trait: 'LogoT_dogllar',
+  weight: '24',
+  occurrence: '11 in 4900 editions (0.22 %)'
+}
+{
+  trait: 'LogoT_wht',
+  weight: '42',
+  occurrence: '16 in 4900 editions (0.33 %)'
+}
+{
+  trait: 'LogoT_wht_apron_smile',
+  weight: '24',
+  occurrence: '11 in 4900 editions (0.22 %)'
+}
+{
+  trait: 'LogoT_wht_bowtie_red',
+  weight: '22',
+  occurrence: '10 in 4900 editions (0.20 %)'
+}
+{
+  trait: 'LogoT_wht_chain_gold',
+  weight: '24',
+  occurrence: '7 in 4900 editions (0.14 %)'
+}
+{
+  trait: 'LogoT_wht_nomad',
+  weight: '24',
+  occurrence: '4 in 4900 editions (0.08 %)'
+}
+{
+  trait: 'LogoT_wht_scarf_camo',
+  weight: '35',
+  occurrence: '16 in 4900 editions (0.33 %)'
+}
+{
+  trait: 'LogoT_wht_scarf_ghost',
+  weight: '45',
+  occurrence: '23 in 4900 editions (0.47 %)'
+}
+{
+  trait: 'LogoT_wht_scarf_grey',
+  weight: '35',
+  occurrence: '15 in 4900 editions (0.31 %)'
+}
+{
+  trait: 'LogoT_wht_scarf_peach',
+  weight: '35',
+  occurrence: '15 in 4900 editions (0.31 %)'
+}
+{
+  trait: 'LogoT_wht_scarf_shock',
+  weight: '35',
+  occurrence: '17 in 4900 editions (0.35 %)'
+}
+{
+  trait: 'LogoT_wht_scarf_skull',
+  weight: '25',
+  occurrence: '10 in 4900 editions (0.20 %)'
+}
+{
+  trait: 'LogoT_wht_scarf_smile',
+  weight: '35',
+  occurrence: '20 in 4900 editions (0.41 %)'
+}
+{
+  trait: 'LogoT_wht_scarf_yellow',
+  weight: '35',
+  occurrence: '19 in 4900 editions (0.39 %)'
+}
+{
+  trait: 'LogoT_wht_silkscarf_ghost',
+  weight: '26',
+  occurrence: '7 in 4900 editions (0.14 %)'
+}
+{
+  trait: 'LogoT_wht_strap_blk',
+  weight: '46',
+  occurrence: '16 in 4900 editions (0.33 %)'
+}
+{
+  trait: 'LogoT_wht_strap_red',
+  weight: '38',
+  occurrence: '17 in 4900 editions (0.35 %)'
+}
+{
+  trait: 'Long_sleeve_tactical',
+  weight: '44',
+  occurrence: '15 in 4900 editions (0.31 %)'
+}
+{
+  trait: 'Lumberjack_blue',
+  weight: '36',
+  occurrence: '14 in 4900 editions (0.29 %)'
+}
+{
+  trait: 'Lumberjack_green',
+  weight: '38',
+  occurrence: '15 in 4900 editions (0.31 %)'
+}
+{
+  trait: 'Lumberjack_orange',
+  weight: '39',
+  occurrence: '12 in 4900 editions (0.24 %)'
+}
+{
+  trait: 'Lumberjack_yellow',
+  weight: '26',
+  occurrence: '10 in 4900 editions (0.20 %)'
+}
+{
+  trait: 'Moto_jacket_blk',
+  weight: '36',
+  occurrence: '18 in 4900 editions (0.37 %)'
+}
+{
+  trait: 'Moto_jacket_blk_choker',
+  weight: '31',
+  occurrence: '13 in 4900 editions (0.27 %)'
+}
+{
+  trait: 'Moto_jacket_green',
+  weight: '36',
+  occurrence: '10 in 4900 editions (0.20 %)'
+}
+{
+  trait: 'Moto_jacket_green_choker',
+  weight: '25',
+  occurrence: '12 in 4900 editions (0.24 %)'
+}
+{
+  trait: 'Moto_jacket_red',
+  weight: '38',
+  occurrence: '16 in 4900 editions (0.33 %)'
+}
+{
+  trait: 'Moto_jacket_red_choker',
+  weight: '38',
+  occurrence: '24 in 4900 editions (0.49 %)'
+}
+{
+  trait: 'Moto_jacket_wht',
+  weight: '45',
+  occurrence: '24 in 4900 editions (0.49 %)'
+}
+{
+  trait: 'Moto_jacket_yellow',
+  weight: '31',
+  occurrence: '8 in 4900 editions (0.16 %)'
+}
+{
+  trait: 'Moto_jacket_yellow_choker',
+  weight: '21',
+  occurrence: '7 in 4900 editions (0.14 %)'
+}
+{
+  trait: 'Mourning_cape',
+  weight: '31',
+  occurrence: '10 in 4900 editions (0.20 %)'
+}
+{
+  trait: 'Mourning_cape_blue',
+  weight: '28',
+  occurrence: '10 in 4900 editions (0.20 %)'
+}
+{
+  trait: 'Mourning_cape_yellow',
+  weight: '32',
+  occurrence: '10 in 4900 editions (0.20 %)'
+}
+{
+  trait: 'Mq_blazer',
+  weight: '42',
+  occurrence: '16 in 4900 editions (0.33 %)'
+}
+{
+  trait: 'Mq_blazer_pink',
+  weight: '36',
+  occurrence: '13 in 4900 editions (0.27 %)'
+}
+{
+  trait: 'Mq_blazer_wht',
+  weight: '48',
+  occurrence: '24 in 4900 editions (0.49 %)'
+}
+{
+  trait: 'MS=666',
+  weight: '13',
+  occurrence: '4 in 4900 editions (0.08 %)'
+}
+{
+  trait: 'MS=891',
+  weight: '15',
+  occurrence: '6 in 4900 editions (0.12 %)'
+}
+{
+  trait: 'Msgbag_blk_detective_wht',
+  weight: '34',
+  occurrence: '15 in 4900 editions (0.31 %)'
+}
+{
+  trait: 'Msgbag_blk_dots_blk',
+  weight: '35',
+  occurrence: '18 in 4900 editions (0.37 %)'
+}
+{
+  trait: 'Msgbag_blk_dots_dots_green',
+  weight: '25',
+  occurrence: '9 in 4900 editions (0.18 %)'
+}
+{
+  trait: 'Msgbag_blk_dots_wht',
+  weight: '22',
+  occurrence: '9 in 4900 editions (0.18 %)'
+}
+{
+  trait: 'Msgbag_blk_sleeve_khaki',
+  weight: '35',
+  occurrence: '18 in 4900 editions (0.37 %)'
+}
+{
+  trait: 'Msgbag_blk_tee_blue',
+  weight: '25',
+  occurrence: '9 in 4900 editions (0.18 %)'
+}
+{
+  trait: 'Msgbag_blk_tee_pink',
+  weight: '25',
+  occurrence: '16 in 4900 editions (0.33 %)'
+}
+{
+  trait: 'Msgbag_green_detective_wht',
+  weight: '34',
+  occurrence: '12 in 4900 editions (0.24 %)'
+}
+{
+  trait: 'Msgbag_green_dots_green',
+  weight: '35',
+  occurrence: '9 in 4900 editions (0.18 %)'
+}
+{
+  trait: 'Msgbag_green_sleeve_blk',
+  weight: '35',
+  occurrence: '19 in 4900 editions (0.39 %)'
+}
+{
+  trait: 'Msgbag_orange_dots_blk',
+  weight: '25',
+  occurrence: '11 in 4900 editions (0.22 %)'
+}
+{
+  trait: 'Msgbag_orange_dots_wht',
+  weight: '25',
+  occurrence: '12 in 4900 editions (0.24 %)'
+}
+{
+  trait: 'Msgbag_orange_sleeve_blk',
+  weight: '35',
+  occurrence: '12 in 4900 editions (0.24 %)'
+}
+{
+  trait: 'Msgbag_orange_sleeve_khaki',
+  weight: '25',
+  occurrence: '7 in 4900 editions (0.14 %)'
+}
+{
+  trait: 'Msgbag_purple_detective_wht',
+  weight: '25',
+  occurrence: '12 in 4900 editions (0.24 %)'
+}
+{
+  trait: 'Msgbag_purple_dots_blk',
+  weight: '25',
+  occurrence: '9 in 4900 editions (0.18 %)'
+}
+{
+  trait: 'Msgbag_purple_dots_wht',
+  weight: '15',
+  occurrence: '4 in 4900 editions (0.08 %)'
+}
+{
+  trait: 'Msgbag_purple_sleeve_blk',
+  weight: '25',
+  occurrence: '7 in 4900 editions (0.14 %)'
+}
+{
+  trait: 'Msgbag_purple_sleeve_khaki',
+  weight: '35',
+  occurrence: '20 in 4900 editions (0.41 %)'
+}
+{
+  trait: 'Msgbag_wht_dots_blk',
+  weight: '35',
+  occurrence: '18 in 4900 editions (0.37 %)'
+}
+{
+  trait: 'Msgbag_wht_dots_green',
+  weight: '25',
+  occurrence: '4 in 4900 editions (0.08 %)'
+}
+{
+  trait: 'Msgbag_wht_dots_wht',
+  weight: '25',
+  occurrence: '10 in 4900 editions (0.20 %)'
+}
+{
+  trait: 'Msgbag_wht_sleeve_blk',
+  weight: '35',
+  occurrence: '16 in 4900 editions (0.33 %)'
+}
+{
+  trait: 'Msgbag_wht_sleeve_khaki',
+  weight: '48',
+  occurrence: '16 in 4900 editions (0.33 %)'
+}
+{
+  trait: 'Msgbag_wht_tee_blue',
+  weight: '35',
+  occurrence: '10 in 4900 editions (0.20 %)'
+}
+{
+  trait: 'Msgbag_wht_tee_pink',
+  weight: '35',
+  occurrence: '14 in 4900 editions (0.29 %)'
+}
+{
+  trait: 'National_team_3_cats',
+  weight: '36',
+  occurrence: '25 in 4900 editions (0.51 %)'
+}
+{
+  trait: 'National_team_best_11',
+  weight: '36',
+  occurrence: '18 in 4900 editions (0.37 %)'
+}
+{
+  trait: 'National_team_red_cross',
+  weight: '36',
+  occurrence: '8 in 4900 editions (0.16 %)'
+}
+{
+  trait: 'National_team_super_canary',
+  weight: '36',
+  occurrence: '17 in 4900 editions (0.35 %)'
+}
+{
+  trait: 'National_team_the outlaws',
+  weight: '36',
+  occurrence: '16 in 4900 editions (0.33 %)'
+}
+{
+  trait: 'National_team_the victor',
+  weight: '36',
+  occurrence: '18 in 4900 editions (0.37 %)'
+}
+{
+  trait: 'National_team_the_furious',
+  weight: '36',
+  occurrence: '7 in 4900 editions (0.14 %)'
+}
+{
+  trait: 'National_team_whtblue_sky',
+  weight: '36',
+  occurrence: '6 in 4900 editions (0.12 %)'
+}
+{
+  trait: 'none',
+  weight: '36',
+  occurrence: '0 in 4900 editions (0.00 %)'
+}
+{
+  trait: 'OfficerB',
+  weight: '24',
+  occurrence: '7 in 4900 editions (0.14 %)'
+}
+{
+  trait: 'OfficerF_holster',
+  weight: '36',
+  occurrence: '18 in 4900 editions (0.37 %)'
+}
+{
+  trait: 'OfficerG',
+  weight: '24',
+  occurrence: '9 in 4900 editions (0.18 %)'
+}
+{
+  trait: 'OfficerI',
+  weight: '28',
+  occurrence: '5 in 4900 editions (0.10 %)'
+}
+{
+  trait: 'Outlaw_bandit_cape',
+  weight: '36',
+  occurrence: '22 in 4900 editions (0.45 %)'
+}
+{
+  trait: 'Outlaw_poncho',
+  weight: '33',
+  occurrence: '7 in 4900 editions (0.14 %)'
+}
+{
+  trait: 'Parvenue_blazer',
+  weight: '39',
+  occurrence: '15 in 4900 editions (0.31 %)'
+}
+{
+  trait: 'Parvenue_shirts',
+  weight: '44',
+  occurrence: '20 in 4900 editions (0.41 %)'
+}
+{
+  trait: 'Pet_surgeon',
+  weight: '36',
+  occurrence: '12 in 4900 editions (0.24 %)'
+}
+{
+  trait: 'Pickpocket_lA',
+  weight: '24',
+  occurrence: '10 in 4900 editions (0.20 %)'
+}
+{
+  trait: 'Pickpocket_london',
+  weight: '24',
+  occurrence: '7 in 4900 editions (0.14 %)'
+}
+{
+  trait: 'Pickpocket_nY',
+  weight: '26',
+  occurrence: '10 in 4900 editions (0.20 %)'
+}
+{
+  trait: 'Pickpocket_paris',
+  weight: '21',
+  occurrence: '7 in 4900 editions (0.14 %)'
+}
+{
+  trait: 'Picnic_capelet',
+  weight: '33',
+  occurrence: '15 in 4900 editions (0.31 %)'
+}
+{
+  trait: 'PinkT_cold_wallet',
+  weight: '41',
+  occurrence: '16 in 4900 editions (0.33 %)'
+}
+{
+  trait: 'Plaid_blazer',
+  weight: '39',
+  occurrence: '16 in 4900 editions (0.33 %)'
+}
+{
+  trait: 'Plaid_blazer_bowtie',
+  weight: '24',
+  occurrence: '14 in 4900 editions (0.29 %)'
+}
+{
+  trait: 'Poloneck_blk',
+  weight: '48',
+  occurrence: '27 in 4900 editions (0.55 %)'
+}
+{
+  trait: 'Poloneck_blk_strap',
+  weight: '43',
+  occurrence: '18 in 4900 editions (0.37 %)'
+}
+{
+  trait: 'Poloneck_blue',
+  weight: '49',
+  occurrence: '16 in 4900 editions (0.33 %)'
+}
+{
+  trait: 'Poloneck_blue_strap',
+  weight: '34',
+  occurrence: '24 in 4900 editions (0.49 %)'
+}
+{
+  trait: 'Poloneck_pink',
+  weight: '48',
+  occurrence: '24 in 4900 editions (0.49 %)'
+}
+{
+  trait: 'Polo_shirts_blk',
+  weight: '46',
+  occurrence: '20 in 4900 editions (0.41 %)'
+}
+{
+  trait: 'Polo_shirts_blue',
+  weight: '44',
+  occurrence: '17 in 4900 editions (0.35 %)'
+}
+{
+  trait: 'Polo_shirts_green',
+  weight: '46',
+  occurrence: '18 in 4900 editions (0.37 %)'
+}
+{
+  trait: 'Polo_shirts_orange',
+  weight: '44',
+  occurrence: '16 in 4900 editions (0.33 %)'
+}
+{
+  trait: 'Polo_shirts_wht',
+  weight: '52',
+  occurrence: '27 in 4900 editions (0.55 %)'
+}
+{
+  trait: 'Prisoner_jumper',
+  weight: '36',
+  occurrence: '11 in 4900 editions (0.22 %)'
+}
+{
+  trait: 'Rainjacket_2faces',
+  weight: '28',
+  occurrence: '21 in 4900 editions (0.43 %)'
+}
+{
+  trait: 'Rainjacket_blkT',
+  weight: '42',
+  occurrence: '21 in 4900 editions (0.43 %)'
+}
+{
+  trait: 'Rainjacket_blue',
+  weight: '31',
+  occurrence: '9 in 4900 editions (0.18 %)'
+}
+{
+  trait: 'Rainjacket_blue_detective',
+  weight: '28',
+  occurrence: '17 in 4900 editions (0.35 %)'
+}
+{
+  trait: 'Rainjacket_blue_spandex',
+  weight: '28',
+  occurrence: '5 in 4900 editions (0.10 %)'
+}
+{
+  trait: 'Rainjacket_blue_spy',
+  weight: '28',
+  occurrence: '12 in 4900 editions (0.24 %)'
+}
+{
+  trait: 'Rainjacket_orange_vest',
+  weight: '28',
+  occurrence: '9 in 4900 editions (0.18 %)'
+}
+{
+  trait: 'Rainjacket_tactical',
+  weight: '34',
+  occurrence: '7 in 4900 editions (0.14 %)'
+}
+{
+  trait: 'Rainjacket_whtT',
+  weight: '39',
+  occurrence: '17 in 4900 editions (0.35 %)'
+}
+{
+  trait: 'Red_strap_blue_scarf',
+  weight: '32',
+  occurrence: '14 in 4900 editions (0.29 %)'
+}
+{
+  trait: 'Red_strap_headphones',
+  weight: '36',
+  occurrence: '15 in 4900 editions (0.31 %)'
+}
+{
+  trait: 'Red_strap_wht_scarf',
+  weight: '38',
+  occurrence: '12 in 4900 editions (0.24 %)'
+}
+{
+  trait: 'Ripped_bandage',
+  weight: '33',
+  occurrence: '11 in 4900 editions (0.22 %)'
+}
+{
+  trait: 'Ripped_nomad',
+  weight: '34',
+  occurrence: '15 in 4900 editions (0.31 %)'
+}
+{
+  trait: 'Ripped_pimp_chain',
+  weight: '33',
+  occurrence: '12 in 4900 editions (0.24 %)'
+}
+{
+  trait: 'Ripped_Silkscarf_camo',
+  weight: '34',
+  occurrence: '13 in 4900 editions (0.27 %)'
+}
+{
+  trait: 'Ripped_silkscarf_skull',
+  weight: '48',
+  occurrence: '21 in 4900 editions (0.43 %)'
+}
+{
+  trait: 'Ripped_sweater',
+  weight: '32',
+  occurrence: '12 in 4900 editions (0.24 %)'
+}
+{
+  trait: 'Ripped_tshirts',
+  weight: '38',
+  occurrence: '18 in 4900 editions (0.37 %)'
+}
+{
+  trait: 'Ripped_yellow_scarf',
+  weight: '34',
+  occurrence: '15 in 4900 editions (0.31 %)'
+}
+{
+  trait: 'Royalmeow_blk',
+  weight: '39',
+  occurrence: '17 in 4900 editions (0.35 %)'
+}
+{
+  trait: 'Royalmeow_blue_scarf',
+  weight: '26',
+  occurrence: '7 in 4900 editions (0.14 %)'
+}
+{
+  trait: 'Royalmeow_wht',
+  weight: '34',
+  occurrence: '17 in 4900 editions (0.35 %)'
+}
+{
+  trait: 'Sailer_blue',
+  weight: '33',
+  occurrence: '9 in 4900 editions (0.18 %)'
+}
+{
+  trait: 'Sailer_silver',
+  weight: '33',
+  occurrence: '8 in 4900 editions (0.16 %)'
+}
+{
+  trait: 'Sailer_wht',
+  weight: '33',
+  occurrence: '13 in 4900 editions (0.27 %)'
+}
+{
+  trait: 'Sailer_yellow',
+  weight: '33',
+  occurrence: '12 in 4900 editions (0.24 %)'
+}
+{
+  trait: 'Sayonara_kitty_pink',
+  weight: '24',
+  occurrence: '9 in 4900 editions (0.18 %)'
+}
+{
+  trait: 'Sayonara_kitty_yellow',
+  weight: '31',
+  occurrence: '14 in 4900 editions (0.29 %)'
+}
+{
+  trait: 'Secret_society_cape',
+  weight: '39',
+  occurrence: '9 in 4900 editions (0.18 %)'
+}
+{
+  trait: 'Secret_society_cape_wht',
+  weight: '33',
+  occurrence: '12 in 4900 editions (0.24 %)'
+}
+{
+  trait: 'Shaman',
+  weight: '32',
+  occurrence: '19 in 4900 editions (0.39 %)'
+}
+{
+  trait: 'Sheriff_ambushed',
+  weight: '39',
+  occurrence: '15 in 4900 editions (0.31 %)'
+}
+{
+  trait: 'Sleeve_blk',
+  weight: '36',
+  occurrence: '16 in 4900 editions (0.33 %)'
+}
+{
+  trait: 'Sleeve_cold_wallet_blk',
+  weight: '33',
+  occurrence: '12 in 4900 editions (0.24 %)'
+}
+{
+  trait: 'Sleeve_cold_wallet_green',
+  weight: '33',
+  occurrence: '14 in 4900 editions (0.29 %)'
+}
+{
+  trait: 'Sleeve_cold_wallet_purple',
+  weight: '33',
+  occurrence: '7 in 4900 editions (0.14 %)'
+}
+{
+  trait: 'Sleeve_dots_green',
+  weight: '34',
+  occurrence: '13 in 4900 editions (0.27 %)'
+}
+{
+  trait: 'Sleeve_dots_wht',
+  weight: '38',
+  occurrence: '11 in 4900 editions (0.22 %)'
+}
+{
+  trait: 'Sleeve_olive_bowtie_red',
+  weight: '26',
+  occurrence: '10 in 4900 editions (0.20 %)'
+}
+{
+  trait: 'Sleeve_olive_bowtie_wht',
+  weight: '26',
+  occurrence: '10 in 4900 editions (0.20 %)'
+}
+{
+  trait: 'Sleeve_olive_bowtie_yellow',
+  weight: '34',
+  occurrence: '12 in 4900 editions (0.24 %)'
+}
+{
+  trait: 'Sleeve_olive_choker',
+  weight: '14',
+  occurrence: '6 in 4900 editions (0.12 %)'
+}
+{
+  trait: 'Sleeve_olive_dragon_collar',
+  weight: '26',
+  occurrence: '9 in 4900 editions (0.18 %)'
+}
+{
+  trait: 'Sleeve_olive_strap_blk',
+  weight: '32',
+  occurrence: '20 in 4900 editions (0.41 %)'
+}
+{
+  trait: 'Sleeve_olive_strap_wht',
+  weight: '32',
+  occurrence: '9 in 4900 editions (0.18 %)'
+}
+{
+  trait: 'Sleeve_olive_unicorn_collar',
+  weight: '21',
+  occurrence: '5 in 4900 editions (0.10 %)'
+}
+{
+  trait: 'Sleeve_pink_bowtie_red',
+  weight: '28',
+  occurrence: '10 in 4900 editions (0.20 %)'
+}
+{
+  trait: 'Sleeve_pink_bowtie_wht',
+  weight: '15',
+  occurrence: '4 in 4900 editions (0.08 %)'
+}
+{
+  trait: 'Sleeve_pink_strap_blk',
+  weight: '22',
+  occurrence: '8 in 4900 editions (0.16 %)'
+}
+{
+  trait: 'Sleeve_pink_strap_wht',
+  weight: '32',
+  occurrence: '11 in 4900 editions (0.22 %)'
+}
+{
+  trait: 'Sleeve_pink_unicorn_collar',
+  weight: '31',
+  occurrence: '16 in 4900 editions (0.33 %)'
+}
+{
+  trait: 'Spandex_blk',
+  weight: '46',
+  occurrence: '15 in 4900 editions (0.31 %)'
+}
+{
+  trait: 'Spandex_blue',
+  weight: '33',
+  occurrence: '13 in 4900 editions (0.27 %)'
+}
+{
+  trait: 'Spandex_green',
+  weight: '48',
+  occurrence: '22 in 4900 editions (0.45 %)'
+}
+{
+  trait: 'Spandex_pink',
+  weight: '34',
+  occurrence: '14 in 4900 editions (0.29 %)'
+}
+{
+  trait: 'Spy_Informal',
+  weight: '36',
+  occurrence: '21 in 4900 editions (0.43 %)'
+}
+{
+  trait: 'Spy_spandex',
+  weight: '36',
+  occurrence: '12 in 4900 editions (0.24 %)'
+}
+{
+  trait: 'Sugar_daddy_green',
+  weight: '48',
+  occurrence: '19 in 4900 editions (0.39 %)'
+}
+{
+  trait: 'Sugar_daddy_pink',
+  weight: '36',
+  occurrence: '17 in 4900 editions (0.35 %)'
+}
+{
+  trait: 'Sugar_daddy_wht',
+  weight: '39',
+  occurrence: '10 in 4900 editions (0.20 %)'
+}
+{
+  trait: 'Sukajan_cMC_blk',
+  weight: '33',
+  occurrence: '14 in 4900 editions (0.29 %)'
+}
+{
+  trait: 'Sukajan_cMC_mint',
+  weight: '36',
+  occurrence: '21 in 4900 editions (0.43 %)'
+}
+{
+  trait: 'Sukajan_cMC_wht',
+  weight: '35',
+  occurrence: '10 in 4900 editions (0.20 %)'
+}
+{
+  trait: 'Sukajan_mamba',
+  weight: '31',
+  occurrence: '12 in 4900 editions (0.24 %)'
+}
+{
+  trait: 'Sukajan_royal_beige',
+  weight: '36',
+  occurrence: '14 in 4900 editions (0.29 %)'
+}
+{
+  trait: 'Sukajan_royal_blk',
+  weight: '39',
+  occurrence: '23 in 4900 editions (0.47 %)'
+}
+{
+  trait: 'Sukajan_spacecat',
+  weight: '31',
+  occurrence: '17 in 4900 editions (0.35 %)'
+}
+{
+  trait: 'Tactical_sleeve_doggy',
+  weight: '31',
+  occurrence: '9 in 4900 editions (0.18 %)'
+}
+{
+  trait: 'Tactical_yellow_scarf',
+  weight: '24',
+  occurrence: '15 in 4900 editions (0.31 %)'
+}
+{
+  trait: 'Tanktop_bandage',
+  weight: '31',
+  occurrence: '14 in 4900 editions (0.29 %)'
+}
+{
+  trait: 'Tanktop_collar',
+  weight: '33',
+  occurrence: '9 in 4900 editions (0.18 %)'
+}
+{
+  trait: 'Tanktop_ghost',
+  weight: '36',
+  occurrence: '17 in 4900 editions (0.35 %)'
+}
+{
+  trait: 'Tanktop_leeloo',
+  weight: '33',
+  occurrence: '14 in 4900 editions (0.29 %)'
+}
+{
+  trait: 'Tanktop_leeloo_collar',
+  weight: '24',
+  occurrence: '9 in 4900 editions (0.18 %)'
+}
+{
+  trait: 'Tanktop_ribbon_lace',
+  weight: '32',
+  occurrence: '10 in 4900 editions (0.20 %)'
+}
+{
+  trait: 'Tanktop_shock',
+  weight: '36',
+  occurrence: '12 in 4900 editions (0.24 %)'
+}
+{
+  trait: 'Tanktop_smile',
+  weight: '36',
+  occurrence: '16 in 4900 editions (0.33 %)'
+}
+{
+  trait: 'Tanktop_wht',
+  weight: '36',
+  occurrence: '18 in 4900 editions (0.37 %)'
+}
+{
+  trait: 'Timber_rattle_blue',
+  weight: '48',
+  occurrence: '14 in 4900 editions (0.29 %)'
+}
+{
+  trait: 'Timber_rattle_orange',
+  weight: '42',
+  occurrence: '23 in 4900 editions (0.47 %)'
+}
+{
+  trait: 'Toga_blue',
+  weight: '39',
+  occurrence: '20 in 4900 editions (0.41 %)'
+}
+{
+  trait: 'Toga_red',
+  weight: '39',
+  occurrence: '20 in 4900 editions (0.41 %)'
+}
+{
+  trait: 'Tracksuits_lemon',
+  weight: '24',
+  occurrence: '9 in 4900 editions (0.18 %)'
+}
+{
+  trait: 'Tracksuits_parsley',
+  weight: '24',
+  occurrence: '8 in 4900 editions (0.16 %)'
+}
+{
+  trait: 'Ttuxedo_blk_banner',
+  weight: '24',
+  occurrence: '8 in 4900 editions (0.16 %)'
+}
+{
+  trait: 'Turtleneck_pride_blk',
+  weight: '28',
+  occurrence: '7 in 4900 editions (0.14 %)'
+}
+{
+  trait: 'Turtleneck_pride_wht',
+  weight: '28',
+  occurrence: '16 in 4900 editions (0.33 %)'
+}
+{
+  trait: 'Turtleneck_silkscarf_ghost',
+  weight: '34',
+  occurrence: '10 in 4900 editions (0.20 %)'
+}
+{
+  trait: 'Turtleneck_strap_pink',
+  weight: '34',
+  occurrence: '12 in 4900 editions (0.24 %)'
+}
+{
+  trait: 'Turtleneck_strap_wht',
+  weight: '39',
+  occurrence: '11 in 4900 editions (0.22 %)'
+}
+{
+  trait: 'Turtleneck_strap_yellow',
+  weight: '38',
+  occurrence: '18 in 4900 editions (0.37 %)'
+}
+{
+  trait: 'Turtleneck_wht_strap_blk',
+  weight: '36',
+  occurrence: '11 in 4900 editions (0.22 %)'
+}
+{
+  trait: 'Turtleneck_wht_strap_pink',
+  weight: '44',
+  occurrence: '25 in 4900 editions (0.51 %)'
+}
+{
+  trait: 'Turtleneck_wht_strap_yellow',
+  weight: '38',
+  occurrence: '15 in 4900 editions (0.31 %)'
+}
+{
+  trait: 'Turtleneck_winter',
+  weight: '26',
+  occurrence: '9 in 4900 editions (0.18 %)'
+}
+{
+  trait: 'Turtle_cold_wallet_red',
+  weight: '33',
+  occurrence: '12 in 4900 editions (0.24 %)'
+}
+{
+  trait: 'Tuxedo_blk',
+  weight: '39',
+  occurrence: '15 in 4900 editions (0.31 %)'
+}
+{
+  trait: 'Tuxedo_blk_banner',
+  weight: '39',
+  occurrence: '16 in 4900 editions (0.33 %)'
+}
+{
+  trait: 'Tuxedo_pink',
+  weight: '31',
+  occurrence: '8 in 4900 editions (0.16 %)'
+}
+{
+  trait: 'Tuxedo_wht',
+  weight: '38',
+  occurrence: '16 in 4900 editions (0.33 %)'
+}
+{
+  trait: 'Tuxedo_wht_banner',
+  weight: '38',
+  occurrence: '15 in 4900 editions (0.31 %)'
+}
+{
+  trait: 'Upstart_blazer',
+  weight: '39',
+  occurrence: '16 in 4900 editions (0.33 %)'
+}
+{
+  trait: 'Vest_detective',
+  weight: '36',
+  occurrence: '19 in 4900 editions (0.39 %)'
+}
+{
+  trait: 'Vest_detective_blk',
+  weight: '36',
+  occurrence: '7 in 4900 editions (0.14 %)'
+}
+{
+  trait: 'Vest_detective_blue',
+  weight: '36',
+  occurrence: '17 in 4900 editions (0.35 %)'
+}
+{
+  trait: 'Vest_headphones',
+  weight: '36',
+  occurrence: '17 in 4900 editions (0.35 %)'
+}
+{
+  trait: 'Vest_pride_blk',
+  weight: '26',
+  occurrence: '4 in 4900 editions (0.08 %)'
+}
+{
+  trait: 'Vest_royal_blk',
+  weight: '36',
+  occurrence: '13 in 4900 editions (0.27 %)'
+}
+{
+  trait: 'Vest_scarf',
+  weight: '36',
+  occurrence: '13 in 4900 editions (0.27 %)'
+}
+{
+  trait: 'Vest_spandex',
+  weight: '36',
+  occurrence: '18 in 4900 editions (0.37 %)'
+}
+{
+  trait: 'Vest_turtle_blk',
+  weight: '36',
+  occurrence: '15 in 4900 editions (0.31 %)'
+}
+{
+  trait: 'Vest_turtle_blue',
+  weight: '36',
+  occurrence: '11 in 4900 editions (0.22 %)'
+}
+{
+  trait: 'Vest_turtle_pink',
+  weight: '36',
+  occurrence: '14 in 4900 editions (0.29 %)'
+}
+{
+  trait: 'Vneck_bue',
+  weight: '58',
+  occurrence: '18 in 4900 editions (0.37 %)'
+}
+{
+  trait: 'Vneck_green',
+  weight: '39',
+  occurrence: '14 in 4900 editions (0.29 %)'
+}
+{
+  trait: 'Vneck_grey',
+  weight: '38',
+  occurrence: '17 in 4900 editions (0.35 %)'
+}
+{
+  trait: 'Vneck_wht',
+  weight: '42',
+  occurrence: '19 in 4900 editions (0.39 %)'
+}
+{
+  trait: 'WhtT_tactical',
+  weight: '43',
+  occurrence: '20 in 4900 editions (0.41 %)'
+}
+{
+  trait: 'Wht_strap_skull_scarf',
+  weight: '38',
+  occurrence: '18 in 4900 editions (0.37 %)'
+}
+
+Trait type: Eyes
+{
+  trait: 'Advanced_blue',
+  weight: '36',
+  occurrence: '26 in 4900 editions (0.53 %)'
+}
+{
+  trait: 'Advanced_blue_bruised',
+  weight: '27',
+  occurrence: '16 in 4900 editions (0.33 %)'
+}
+{
+  trait: 'Advanced_green',
+  weight: '31',
+  occurrence: '26 in 4900 editions (0.53 %)'
+}
+{
+  trait: 'Advanced_green_bruised',
+  weight: '26',
+  occurrence: '30 in 4900 editions (0.61 %)'
+}
+{
+  trait: 'Advanced_pink',
+  weight: '31',
+  occurrence: '23 in 4900 editions (0.47 %)'
+}
+{
+  trait: 'Advanced_pink_bruised',
+  weight: '18',
+  occurrence: '11 in 4900 editions (0.22 %)'
+}
+{
+  trait: 'Advanced_yellow',
+  weight: '48',
+  occurrence: '45 in 4900 editions (0.92 %)'
+}
+{
+  trait: 'Albino_bluegreen',
+  weight: '55',
+  occurrence: '37 in 4900 editions (0.76 %)'
+}
+{
+  trait: 'Albino_pinkblue',
+  weight: '24',
+  occurrence: '13 in 4900 editions (0.27 %)'
+}
+{
+  trait: 'Albino_pinkgreen',
+  weight: '35',
+  occurrence: '22 in 4900 editions (0.45 %)'
+}
+{
+  trait: 'Albino_yellowblue',
+  weight: '25',
+  occurrence: '19 in 4900 editions (0.39 %)'
+}
+{
+  trait: 'Albino_yellowgreen',
+  weight: '45',
+  occurrence: '35 in 4900 editions (0.71 %)'
+}
+{
+  trait: 'Albino_yellowpink',
+  weight: '33',
+  occurrence: '31 in 4900 editions (0.63 %)'
+}
+{
+  trait: 'Avoidance',
+  weight: '26',
+  occurrence: '13 in 4900 editions (0.27 %)'
+}
+{
+  trait: 'Awakening_bullish',
+  weight: '26',
+  occurrence: '22 in 4900 editions (0.45 %)'
+}
+{
+  trait: 'Awakening_hammer',
+  weight: '46',
+  occurrence: '50 in 4900 editions (1.02 %)'
+}
+{
+  trait: 'Awakening_uptrend',
+  weight: '51',
+  occurrence: '34 in 4900 editions (0.69 %)'
+}
+{
+  trait: 'Bot_trader_all_in',
+  weight: '28',
+  occurrence: '20 in 4900 editions (0.41 %)'
+}
+{
+  trait: 'Bot_trader_error',
+  weight: '28',
+  occurrence: '29 in 4900 editions (0.59 %)'
+}
+{
+  trait: 'Bot_trader_long',
+  weight: '31',
+  occurrence: '20 in 4900 editions (0.41 %)'
+}
+{
+  trait: 'Bot_trader_short',
+  weight: '39',
+  occurrence: '29 in 4900 editions (0.59 %)'
+}
+{
+  trait: 'Bot_trader_target_locked',
+  weight: '34',
+  occurrence: '25 in 4900 editions (0.51 %)'
+}
+{
+  trait: 'Bought_at_top',
+  weight: '48',
+  occurrence: '43 in 4900 editions (0.88 %)'
+}
+{
+  trait: 'Brain_dead',
+  weight: '36',
+  occurrence: '33 in 4900 editions (0.67 %)'
+}
+{
+  trait: 'Bullflag_blue',
+  weight: '88',
+  occurrence: '95 in 4900 editions (1.94 %)'
+}
+{
+  trait: 'Bullflag_blue_bruised',
+  weight: '21',
+  occurrence: '17 in 4900 editions (0.35 %)'
+}
+{
+  trait: 'Bullflag_green',
+  weight: '76',
+  occurrence: '68 in 4900 editions (1.39 %)'
+}
+{
+  trait: 'Bullflag_pink',
+  weight: '68',
+  occurrence: '59 in 4900 editions (1.20 %)'
+}
+{
+  trait: 'Bullflag_yellow',
+  weight: '85',
+  occurrence: '64 in 4900 editions (1.31 %)'
+}
+{
+  trait: 'Confirmation_bias_bullish',
+  weight: '58',
+  occurrence: '52 in 4900 editions (1.06 %)'
+}
+{
+  trait: 'Confirmation_bias_market_bottom',
+  weight: '46',
+  occurrence: '37 in 4900 editions (0.76 %)'
+}
+{
+  trait: 'Confirmation_bias_trend_reversal',
+  weight: '48',
+  occurrence: '54 in 4900 editions (1.10 %)'
+}
+{
+  trait: 'Confirmation_bias_volatile',
+  weight: '68',
+  occurrence: '55 in 4900 editions (1.12 %)'
+}
+{
+  trait: 'Cult',
+  weight: '18',
+  occurrence: '11 in 4900 editions (0.22 %)'
+}
+{
+  trait: 'Delisting_notice_blue',
+  weight: '24',
+  occurrence: '24 in 4900 editions (0.49 %)'
+}
+{
+  trait: 'Delisting_notice_green',
+  weight: '38',
+  occurrence: '32 in 4900 editions (0.65 %)'
+}
+{
+  trait: 'Delisting_notice_grey',
+  weight: '36',
+  occurrence: '27 in 4900 editions (0.55 %)'
+}
+{
+  trait: 'Dinner_chart_m',
+  weight: '26',
+  occurrence: '23 in 4900 editions (0.47 %)'
+}
+{
+  trait: 'Dinner_chart_t',
+  weight: '34',
+  occurrence: '36 in 4900 editions (0.73 %)'
+}
+{
+  trait: 'Dinner_chart_w',
+  weight: '36',
+  occurrence: '39 in 4900 editions (0.80 %)'
+}
+{
+  trait: 'Doubtful',
+  weight: '28',
+  occurrence: '28 in 4900 editions (0.57 %)'
+}
+{
+  trait: 'Doubtful_albino',
+  weight: '18',
+  occurrence: '16 in 4900 editions (0.33 %)'
+}
+{
+  trait: 'E_frog_acceptance',
+  weight: '36',
+  occurrence: '33 in 4900 editions (0.67 %)'
+}
+{
+  trait: 'E_frog_avoidance',
+  weight: '28',
+  occurrence: '24 in 4900 editions (0.49 %)'
+}
+{
+  trait: 'E_frog_avoidance_yellow',
+  weight: '28',
+  occurrence: '22 in 4900 editions (0.45 %)'
+}
+{
+  trait: 'E_frog_ridiculous',
+  weight: '21',
+  occurrence: '23 in 4900 editions (0.47 %)'
+}
+{
+  trait: 'E_frog_ridiculous_grey',
+  weight: '38',
+  occurrence: '28 in 4900 editions (0.57 %)'
+}
+{
+  trait: 'Faint',
+  weight: '34',
+  occurrence: '37 in 4900 editions (0.76 %)'
+}
+{
+  trait: 'Hammer',
+  weight: '56',
+  occurrence: '48 in 4900 editions (0.98 %)'
+}
+{
+  trait: 'Hanging_man',
+  weight: '64',
+  occurrence: '55 in 4900 editions (1.12 %)'
+}
+{
+  trait: 'Head_n_shoulders',
+  weight: '34',
+  occurrence: '30 in 4900 editions (0.61 %)'
+}
+{
+  trait: 'Hopium_blue',
+  weight: '21',
+  occurrence: '23 in 4900 editions (0.47 %)'
+}
+{
+  trait: 'Hopium_green',
+  weight: '28',
+  occurrence: '27 in 4900 editions (0.55 %)'
+}
+{
+  trait: 'Hopium_red',
+  weight: '21',
+  occurrence: '11 in 4900 editions (0.22 %)'
+}
+{
+  trait: 'Hysteria',
+  weight: '44',
+  occurrence: '36 in 4900 editions (0.73 %)'
+}
+{
+  trait: 'Inverted_hammer',
+  weight: '49',
+  occurrence: '40 in 4900 editions (0.82 %)'
+}
+{
+  trait: 'K_pop_idol',
+  weight: '23',
+  occurrence: '27 in 4900 editions (0.55 %)'
+}
+{
+  trait: 'Longdead',
+  weight: '31',
+  occurrence: '29 in 4900 editions (0.59 %)'
+}
+{
+  trait: 'Market_maker_pump',
+  weight: '48',
+  occurrence: '39 in 4900 editions (0.80 %)'
+}
+{
+  trait: 'MDMA_blue_thunder',
+  weight: '22',
+  occurrence: '20 in 4900 editions (0.41 %)'
+}
+{
+  trait: 'MDMA_green_heart',
+  weight: '44',
+  occurrence: '34 in 4900 editions (0.69 %)'
+}
+{
+  trait: 'MDMA_green_needle',
+  weight: '24',
+  occurrence: '21 in 4900 editions (0.43 %)'
+}
+{
+  trait: 'MDMA_green_thunder',
+  weight: '38',
+  occurrence: '30 in 4900 editions (0.61 %)'
+}
+{
+  trait: 'MDMA_needle',
+  weight: '24',
+  occurrence: '22 in 4900 editions (0.45 %)'
+}
+{
+  trait: 'MDMA_red_heart',
+  weight: '28',
+  occurrence: '25 in 4900 editions (0.51 %)'
+}
+{
+  trait: 'MDMA_red_needle',
+  weight: '25',
+  occurrence: '25 in 4900 editions (0.51 %)'
+}
+{
+  trait: 'MDMA_thunder',
+  weight: '38',
+  occurrence: '41 in 4900 editions (0.84 %)'
+}
+{
+  trait: 'MDMA_white_claw',
+  weight: '28',
+  occurrence: '19 in 4900 editions (0.39 %)'
+}
+{
+  trait: 'MDMA_yellow_heart',
+  weight: '46',
+  occurrence: '36 in 4900 editions (0.73 %)'
+}
+{
+  trait: 'Mentat',
+  weight: '33',
+  occurrence: '24 in 4900 editions (0.49 %)'
+}
+{
+  trait: 'Naive',
+  weight: '46',
+  occurrence: '34 in 4900 editions (0.69 %)'
+}
+{
+  trait: 'Narukamoto_formB',
+  weight: '36',
+  occurrence: '23 in 4900 editions (0.47 %)'
+}
+{
+  trait: 'Narukamoto_itachi',
+  weight: '38',
+  occurrence: '22 in 4900 editions (0.45 %)'
+}
+{
+  trait: 'Narukamoto_izuna',
+  weight: '39',
+  occurrence: '35 in 4900 editions (0.71 %)'
+}
+{
+  trait: 'Narukamoto_kakashi',
+  weight: '44',
+  occurrence: '49 in 4900 editions (1.00 %)'
+}
+{
+  trait: 'Narukamoto_madarai',
+  weight: '39',
+  occurrence: '45 in 4900 editions (0.92 %)'
+}
+{
+  trait: 'Narukamoto_sasuke',
+  weight: '31',
+  occurrence: '32 in 4900 editions (0.65 %)'
+}
+{
+  trait: 'Nightwatch_exhausted_blue',
+  weight: '114',
+  occurrence: '92 in 4900 editions (1.88 %)'
+}
+{
+  trait: 'Nightwatch_exhausted_green',
+  weight: '88',
+  occurrence: '72 in 4900 editions (1.47 %)'
+}
+{
+  trait: 'Nightwatch_exhausted_lemon',
+  weight: '84',
+  occurrence: '80 in 4900 editions (1.63 %)'
+}
+{
+  trait: 'Nightwatch_exhausted_pink',
+  weight: '144',
+  occurrence: '117 in 4900 editions (2.39 %)'
+}
+{
+  trait: 'Nightwatch_manipulation',
+  weight: '58',
+  occurrence: '53 in 4900 editions (1.08 %)'
+}
+{
+  trait: 'Nightwatch_no_volume',
+  weight: '56',
+  occurrence: '56 in 4900 editions (1.14 %)'
+}
+{
+  trait: 'Nightwatch_reversal',
+  weight: '59',
+  occurrence: '44 in 4900 editions (0.90 %)'
+}
+{
+  trait: 'Nightwatch_sideways_green',
+  weight: '69',
+  occurrence: '56 in 4900 editions (1.14 %)'
+}
+{
+  trait: 'Nightwatch_sideways_pink',
+  weight: '56',
+  occurrence: '45 in 4900 editions (0.92 %)'
+}
+{
+  trait: 'Noob_blue',
+  weight: '124',
+  occurrence: '107 in 4900 editions (2.18 %)'
+}
+{
+  trait: 'Noob_fear_blue',
+  weight: '35',
+  occurrence: '21 in 4900 editions (0.43 %)'
+}
+{
+  trait: 'Noob_fear_bruised',
+  weight: '24',
+  occurrence: '18 in 4900 editions (0.37 %)'
+}
+{
+  trait: 'Noob_fear_green',
+  weight: '36',
+  occurrence: '31 in 4900 editions (0.63 %)'
+}
+{
+  trait: 'Noob_fear_pink',
+  weight: '40',
+  occurrence: '42 in 4900 editions (0.86 %)'
+}
+{
+  trait: 'Noob_fear_yellow',
+  weight: '46',
+  occurrence: '34 in 4900 editions (0.69 %)'
+}
+{
+  trait: 'Noob_green',
+  weight: '82',
+  occurrence: '82 in 4900 editions (1.67 %)'
+}
+{
+  trait: 'Noob_green_bruised',
+  weight: '22',
+  occurrence: '17 in 4900 editions (0.35 %)'
+}
+{
+  trait: 'Noob_pink',
+  weight: '162',
+  occurrence: '127 in 4900 editions (2.59 %)'
+}
+{
+  trait: 'Noob_yellow',
+  weight: '125',
+  occurrence: '101 in 4900 editions (2.06 %)'
+}
+{
+  trait: 'Noob_yellow_bruised',
+  weight: '29',
+  occurrence: '25 in 4900 editions (0.51 %)'
+}
+{
+  trait: 'Numbness',
+  weight: '48',
+  occurrence: '51 in 4900 editions (1.04 %)'
+}
+{
+  trait: 'Numbness_blue',
+  weight: '42',
+  occurrence: '35 in 4900 editions (0.71 %)'
+}
+{
+  trait: 'Numbness_green',
+  weight: '39',
+  occurrence: '29 in 4900 editions (0.59 %)'
+}
+{
+  trait: 'Obsessions_blue',
+  weight: '21',
+  occurrence: '22 in 4900 editions (0.45 %)'
+}
+{
+  trait: 'Obsessions_green',
+  weight: '26',
+  occurrence: '22 in 4900 editions (0.45 %)'
+}
+{
+  trait: 'Obsessions_red',
+  weight: '28',
+  occurrence: '27 in 4900 editions (0.55 %)'
+}
+{
+  trait: 'Pandemic_dump',
+  weight: '15',
+  occurrence: '4 in 4900 editions (0.08 %)'
+}
+{
+  trait: 'Phantasmagoria',
+  weight: '39',
+  occurrence: '38 in 4900 editions (0.78 %)'
+}
+{
+  trait: 'Phantom_pain',
+  weight: '33',
+  occurrence: '30 in 4900 editions (0.61 %)'
+}
+{
+  trait: 'Piercing_line',
+  weight: '58',
+  occurrence: '43 in 4900 editions (0.88 %)'
+}
+{
+  trait: 'Regretful',
+  weight: '15',
+  occurrence: '18 in 4900 editions (0.37 %)'
+}
+{
+  trait: 'Resentment_green',
+  weight: '26',
+  occurrence: '18 in 4900 editions (0.37 %)'
+}
+{
+  trait: 'Resentment_red',
+  weight: '34',
+  occurrence: '35 in 4900 editions (0.71 %)'
+}
+{
+  trait: 'Resurrections',
+  weight: '39',
+  occurrence: '38 in 4900 editions (0.78 %)'
+}
+{
+  trait: 'Resurrection_acquisition',
+  weight: '39',
+  occurrence: '32 in 4900 editions (0.65 %)'
+}
+{
+  trait: 'Resurrection_leverage',
+  weight: '33',
+  occurrence: '22 in 4900 editions (0.45 %)'
+}
+{
+  trait: 'Resurrection_long',
+  weight: '58',
+  occurrence: '45 in 4900 editions (0.92 %)'
+}
+{
+  trait: 'Resurrection_pump',
+  weight: '31',
+  occurrence: '23 in 4900 editions (0.47 %)'
+}
+{
+  trait: 'Resurrection_short',
+  weight: '39',
+  occurrence: '35 in 4900 editions (0.71 %)'
+}
+{
+  trait: 'Revenge_trader_exit',
+  weight: '38',
+  occurrence: '28 in 4900 editions (0.57 %)'
+}
+{
+  trait: 'Revenge_trader_long',
+  weight: '42',
+  occurrence: '52 in 4900 editions (1.06 %)'
+}
+{
+  trait: 'Revenge_trader_pro',
+  weight: '31',
+  occurrence: '38 in 4900 editions (0.78 %)'
+}
+{
+  trait: 'Revenge_trader_short',
+  weight: '33',
+  occurrence: '24 in 4900 editions (0.49 %)'
+}
+{
+  trait: 'Rigid_blue',
+  weight: '36',
+  occurrence: '32 in 4900 editions (0.65 %)'
+}
+{
+  trait: 'Rigid_green',
+  weight: '39',
+  occurrence: '30 in 4900 editions (0.61 %)'
+}
+{
+  trait: 'Rigid_yellow',
+  weight: '33',
+  occurrence: '26 in 4900 editions (0.53 %)'
+}
+{
+  trait: 'Rocket_science',
+  weight: '28',
+  occurrence: '18 in 4900 editions (0.37 %)'
+}
+{
+  trait: 'Scared',
+  weight: '48',
+  occurrence: '40 in 4900 editions (0.82 %)'
+}
+{
+  trait: 'Shooting_star',
+  weight: '48',
+  occurrence: '39 in 4900 editions (0.80 %)'
+}
+{
+  trait: 'Stoplose_blue',
+  weight: '24',
+  occurrence: '23 in 4900 editions (0.47 %)'
+}
+{
+  trait: 'Stoplose_red',
+  weight: '21',
+  occurrence: '22 in 4900 editions (0.45 %)'
+}
+{
+  trait: 'Stressed',
+  weight: '33',
+  occurrence: '25 in 4900 editions (0.51 %)'
+}
+{
+  trait: 'Super_bullish',
+  weight: '18',
+  occurrence: '8 in 4900 editions (0.16 %)'
+}
+{
+  trait: 'Super_cycle',
+  weight: '42',
+  occurrence: '33 in 4900 editions (0.67 %)'
+}
+{
+  trait: 'Suspicious',
+  weight: '42',
+  occurrence: '51 in 4900 editions (1.04 %)'
+}
+{
+  trait: 'Three_black_crows',
+  weight: '39',
+  occurrence: '40 in 4900 editions (0.82 %)'
+}
+{
+  trait: 'Trend_watch_bruised',
+  weight: '34',
+  occurrence: '31 in 4900 editions (0.63 %)'
+}
+{
+  trait: 'Vshape_recovery',
+  weight: '38',
+  occurrence: '31 in 4900 editions (0.63 %)'
+}
+{
+  trait: 'Winter_is_coming',
+  weight: '39',
+  occurrence: '33 in 4900 editions (0.67 %)'
+}
+{
+  trait: 'Winter_is_here',
+  weight: '33',
+  occurrence: '31 in 4900 editions (0.63 %)'
+}
+
+Trait type: Eyeware
+{
+  trait: 'Goggle_smoke',
+  weight: '36',
+  occurrence: '14 in 4900 editions (0.29 %)'
+}
+{
+  trait: 'Goggle_snow',
+  weight: '28',
+  occurrence: '23 in 4900 editions (0.47 %)'
+}
+{
+  trait: 'In_the_zone_exit',
+  weight: '34',
+  occurrence: '18 in 4900 editions (0.37 %)'
+}
+{
+  trait: 'In_the_zone_fury',
+  weight: '42',
+  occurrence: '29 in 4900 editions (0.59 %)'
+}
+{
+  trait: 'In_the_zone_long',
+  weight: '48',
+  occurrence: '31 in 4900 editions (0.63 %)'
+}
+{
+  trait: 'In_the_zone_short',
+  weight: '48',
+  occurrence: '38 in 4900 editions (0.78 %)'
+}
+{
+  trait: 'Monocle_blind',
+  weight: '34',
+  occurrence: '26 in 4900 editions (0.53 %)'
+}
+{
+  trait: 'Monocle_gold',
+  weight: '34',
+  occurrence: '16 in 4900 editions (0.33 %)'
+}
+{
+  trait: 'Monocle_titanium',
+  weight: '49',
+  occurrence: '48 in 4900 editions (0.98 %)'
+}
+{
+  trait: 'none',
+  weight: '5400',
+  occurrence: '0 in 4900 editions (0.00 %)'
+}
+{
+  trait: 'Patch_blk_cmc',
+  weight: '33',
+  occurrence: '30 in 4900 editions (0.61 %)'
+}
+{
+  trait: 'Patch_blk_happysad',
+  weight: '28',
+  occurrence: '23 in 4900 editions (0.47 %)'
+}
+{
+  trait: 'Patch_blk_heart',
+  weight: '44',
+  occurrence: '30 in 4900 editions (0.61 %)'
+}
+{
+  trait: 'Patch_blk_shocked',
+  weight: '26',
+  occurrence: '18 in 4900 editions (0.37 %)'
+}
+{
+  trait: 'Patch_blk_skull',
+  weight: '24',
+  occurrence: '23 in 4900 editions (0.47 %)'
+}
+{
+  trait: 'Patch_blue_heart',
+  weight: '25',
+  occurrence: '14 in 4900 editions (0.29 %)'
+}
+{
+  trait: 'Patch_camo',
+  weight: '28',
+  occurrence: '18 in 4900 editions (0.37 %)'
+}
+{
+  trait: 'Patch_cmc_cat',
+  weight: '48',
+  occurrence: '31 in 4900 editions (0.63 %)'
+}
+{
+  trait: 'Patch_crying_heart',
+  weight: '24',
+  occurrence: '19 in 4900 editions (0.39 %)'
+}
+{
+  trait: 'Patch_doggy',
+  weight: '28',
+  occurrence: '23 in 4900 editions (0.47 %)'
+}
+{
+  trait: 'Patch_happy',
+  weight: '34',
+  occurrence: '31 in 4900 editions (0.63 %)'
+}
+{
+  trait: 'Patch_leather',
+  weight: '24',
+  occurrence: '18 in 4900 editions (0.37 %)'
+}
+{
+  trait: 'Patch_red_heart',
+  weight: '26',
+  occurrence: '17 in 4900 editions (0.35 %)'
+}
+{
+  trait: 'Patch_republica',
+  weight: '22',
+  occurrence: '18 in 4900 editions (0.37 %)'
+}
+{
+  trait: 'Patch_wht_cross',
+  weight: '36',
+  occurrence: '13 in 4900 editions (0.27 %)'
+}
+{
+  trait: 'Patch_wht_heart',
+  weight: '34',
+  occurrence: '19 in 4900 editions (0.39 %)'
+}
+{
+  trait: 'Patch_wht_skull',
+  weight: '35',
+  occurrence: '29 in 4900 editions (0.59 %)'
+}
+{
+  trait: 'Patch_yellow_heart',
+  weight: '36',
+  occurrence: '21 in 4900 editions (0.43 %)'
+}
+{
+  trait: 'Retro_gold',
+  weight: '26',
+  occurrence: '27 in 4900 editions (0.55 %)'
+}
+{
+  trait: 'Retro_silver',
+  weight: '39',
+  occurrence: '21 in 4900 editions (0.43 %)'
+}
+{
+  trait: 'Round_blk',
+  weight: '48',
+  occurrence: '24 in 4900 editions (0.49 %)'
+}
+{
+  trait: 'Round_blue',
+  weight: '55',
+  occurrence: '29 in 4900 editions (0.59 %)'
+}
+{
+  trait: 'Round_pink',
+  weight: '55',
+  occurrence: '30 in 4900 editions (0.61 %)'
+}
+{
+  trait: 'Round_yellow',
+  weight: '35',
+  occurrence: '18 in 4900 editions (0.37 %)'
+}
+{
+  trait: 'Safty_goggles',
+  weight: '31',
+  occurrence: '18 in 4900 editions (0.37 %)'
+}
+{
+  trait: 'Shutter_blk',
+  weight: '36',
+  occurrence: '25 in 4900 editions (0.51 %)'
+}
+{
+  trait: 'Shutter_blue',
+  weight: '36',
+  occurrence: '33 in 4900 editions (0.67 %)'
+}
+{
+  trait: 'Shutter_gold',
+  weight: '24',
+  occurrence: '15 in 4900 editions (0.31 %)'
+}
+{
+  trait: 'Shutter_red',
+  weight: '33',
+  occurrence: '29 in 4900 editions (0.59 %)'
+}
+{
+  trait: 'Shutter_wht',
+  weight: '38',
+  occurrence: '33 in 4900 editions (0.67 %)'
+}
+{
+  trait: 'Square_blk',
+  weight: '26',
+  occurrence: '21 in 4900 editions (0.43 %)'
+}
+{
+  trait: 'Square_blue',
+  weight: '35',
+  occurrence: '27 in 4900 editions (0.55 %)'
+}
+{
+  trait: 'Square_brown',
+  weight: '35',
+  occurrence: '27 in 4900 editions (0.55 %)'
+}
+{
+  trait: 'Square_wht',
+  weight: '24',
+  occurrence: '24 in 4900 editions (0.49 %)'
+}
+
+Trait type: Mouth
+{
+  trait: '500mg',
+  weight: '46',
+  occurrence: '36 in 4900 editions (0.73 %)'
+}
+{
+  trait: 'Akira',
+  weight: '36',
+  occurrence: '33 in 4900 editions (0.67 %)'
+}
+{
+  trait: 'Bubble_nicotine',
+  weight: '46',
+  occurrence: '41 in 4900 editions (0.84 %)'
+}
+{
+  trait: 'Bubble_pinkberry',
+  weight: '39',
+  occurrence: '36 in 4900 editions (0.73 %)'
+}
+{
+  trait: 'Capitalist_full_cigar',
+  weight: '53',
+  occurrence: '45 in 4900 editions (0.92 %)'
+}
+{
+  trait: 'Capitalist_full_cmc_cigar',
+  weight: '43',
+  occurrence: '38 in 4900 editions (0.78 %)'
+}
+{
+  trait: 'Capitalist_full_ecigar',
+  weight: '33',
+  occurrence: '43 in 4900 editions (0.88 %)'
+}
+{
+  trait: 'Capitalist_full_gold',
+  weight: '38',
+  occurrence: '38 in 4900 editions (0.78 %)'
+}
+{
+  trait: 'Capitalist_full_silver',
+  weight: '46',
+  occurrence: '36 in 4900 editions (0.73 %)'
+}
+{
+  trait: 'Capitalist_full_silver_cigar',
+  weight: '39',
+  occurrence: '33 in 4900 editions (0.67 %)'
+}
+{
+  trait: 'Capitalist_full_silver_ecigar',
+  weight: '33',
+  occurrence: '27 in 4900 editions (0.55 %)'
+}
+{
+  trait: 'Capitalist_gold_cigar',
+  weight: '39',
+  occurrence: '34 in 4900 editions (0.69 %)'
+}
+{
+  trait: 'Capitalist_gold_joint',
+  weight: '49',
+  occurrence: '50 in 4900 editions (1.02 %)'
+}
+{
+  trait: 'Capitalist_gold_pipe',
+  weight: '34',
+  occurrence: '30 in 4900 editions (0.61 %)'
+}
+{
+  trait: 'Capitalist_gold_pizza',
+  weight: '26',
+  occurrence: '24 in 4900 editions (0.49 %)'
+}
+{
+  trait: 'Capitalist_round_silver',
+  weight: '46',
+  occurrence: '46 in 4900 editions (0.94 %)'
+}
+{
+  trait: 'Capitalist_silver_pipe',
+  weight: '43',
+  occurrence: '27 in 4900 editions (0.55 %)'
+}
+{
+  trait: 'Capitalist_silver_pizza',
+  weight: '26',
+  occurrence: '30 in 4900 editions (0.61 %)'
+}
+{
+  trait: 'Carrot_snake',
+  weight: '38',
+  occurrence: '42 in 4900 editions (0.86 %)'
+}
+{
+  trait: 'Cheese_nosering_green',
+  weight: '22',
+  occurrence: '24 in 4900 editions (0.49 %)'
+}
+{
+  trait: 'Cheese_nosering_orange',
+  weight: '21',
+  occurrence: '30 in 4900 editions (0.61 %)'
+}
+{
+  trait: 'Cheese_nosering_red',
+  weight: '18',
+  occurrence: '21 in 4900 editions (0.43 %)'
+}
+{
+  trait: 'Cheese_nosering_silver',
+  weight: '24',
+  occurrence: '25 in 4900 editions (0.51 %)'
+}
+{
+  trait: 'Cmc_mask_blk',
+  weight: '42',
+  occurrence: '39 in 4900 editions (0.80 %)'
+}
+{
+  trait: 'Cmc_mask_green',
+  weight: '44',
+  occurrence: '45 in 4900 editions (0.92 %)'
+}
+{
+  trait: 'Cmc_mask_orange',
+  weight: '38',
+  occurrence: '33 in 4900 editions (0.67 %)'
+}
+{
+  trait: 'Cmc_mask_pink',
+  weight: '33',
+  occurrence: '25 in 4900 editions (0.51 %)'
+}
+{
+  trait: 'Cmc_mask_red',
+  weight: '35',
+  occurrence: '28 in 4900 editions (0.57 %)'
+}
+{
+  trait: 'Cmc_mask_wht',
+  weight: '39',
+  occurrence: '36 in 4900 editions (0.73 %)'
+}
+{
+  trait: 'Cmc_nrg',
+  weight: '44',
+  occurrence: '39 in 4900 editions (0.80 %)'
+}
+{
+  trait: 'Cucumber_snake',
+  weight: '31',
+  occurrence: '33 in 4900 editions (0.67 %)'
+}
+{
+  trait: 'Deadly_paupie_snake',
+  weight: '24',
+  occurrence: '21 in 4900 editions (0.43 %)'
+}
+{
+  trait: 'Er',
+  weight: '32',
+  occurrence: '36 in 4900 editions (0.73 %)'
+}
+{
+  trait: 'Er_coins',
+  weight: '18',
+  occurrence: '12 in 4900 editions (0.24 %)'
+}
+{
+  trait: 'Er_nosering_carbon',
+  weight: '44',
+  occurrence: '52 in 4900 editions (1.06 %)'
+}
+{
+  trait: 'Er_nosering_gold',
+  weight: '22',
+  occurrence: '18 in 4900 editions (0.37 %)'
+}
+{
+  trait: 'Er_nosering_red',
+  weight: '24',
+  occurrence: '22 in 4900 editions (0.45 %)'
+}
+{
+  trait: 'Er_nosering_silver',
+  weight: '45',
+  occurrence: '40 in 4900 editions (0.82 %)'
+}
+{
+  trait: 'E_frog_miserable',
+  weight: '28',
+  occurrence: '26 in 4900 editions (0.53 %)'
+}
+{
+  trait: 'E_frog_speechless',
+  weight: '38',
+  occurrence: '29 in 4900 editions (0.59 %)'
+}
+{
+  trait: 'Fartmask_V1',
+  weight: '36',
+  occurrence: '36 in 4900 editions (0.73 %)'
+}
+{
+  trait: 'Flu',
+  weight: '44',
+  occurrence: '33 in 4900 editions (0.67 %)'
+}
+{
+  trait: 'Glug_mica_green',
+  weight: '52',
+  occurrence: '50 in 4900 editions (1.02 %)'
+}
+{
+  trait: 'Glug_mica_yellow',
+  weight: '30',
+  occurrence: '20 in 4900 editions (0.41 %)'
+}
+{
+  trait: 'Grumpy',
+  weight: '58',
+  occurrence: '51 in 4900 editions (1.04 %)'
+}
+{
+  trait: 'Grumpy_nosering_carbon',
+  weight: '24',
+  occurrence: '17 in 4900 editions (0.35 %)'
+}
+{
+  trait: 'Grumpy_nosering_gold',
+  weight: '22',
+  occurrence: '25 in 4900 editions (0.51 %)'
+}
+{
+  trait: 'Grumpy_nosering_green',
+  weight: '15',
+  occurrence: '10 in 4900 editions (0.20 %)'
+}
+{
+  trait: 'Grumpy_nosering_orange',
+  weight: '25',
+  occurrence: '33 in 4900 editions (0.67 %)'
+}
+{
+  trait: 'Grumpy_nosering_purple',
+  weight: '25',
+  occurrence: '29 in 4900 editions (0.59 %)'
+}
+{
+  trait: 'Grumpy_nosering_silver',
+  weight: '34',
+  occurrence: '32 in 4900 editions (0.65 %)'
+}
+{
+  trait: 'Haw_coins',
+  weight: '18',
+  occurrence: '19 in 4900 editions (0.39 %)'
+}
+{
+  trait: 'Haw_nosering_purple',
+  weight: '15',
+  occurrence: '11 in 4900 editions (0.22 %)'
+}
+{
+  trait: 'Haw_nosering_silver',
+  weight: '45',
+  occurrence: '53 in 4900 editions (1.08 %)'
+}
+{
+  trait: 'Homeless_blk_cheese',
+  weight: '59',
+  occurrence: '49 in 4900 editions (1.00 %)'
+}
+{
+  trait: 'Homeless_blk_hummus',
+  weight: '36',
+  occurrence: '30 in 4900 editions (0.61 %)'
+}
+{
+  trait: 'Homeless_blk_pipe',
+  weight: '68',
+  occurrence: '60 in 4900 editions (1.22 %)'
+}
+{
+  trait: 'Homeless_brown_cheese',
+  weight: '49',
+  occurrence: '66 in 4900 editions (1.35 %)'
+}
+{
+  trait: 'Homeless_brown_hummus',
+  weight: '46',
+  occurrence: '44 in 4900 editions (0.90 %)'
+}
+{
+  trait: 'Homeless_brown_pipe',
+  weight: '58',
+  occurrence: '55 in 4900 editions (1.12 %)'
+}
+{
+  trait: 'Homeless_nosering_red',
+  weight: '18',
+  occurrence: '12 in 4900 editions (0.24 %)'
+}
+{
+  trait: 'Homeless_pastel_cheese',
+  weight: '44',
+  occurrence: '39 in 4900 editions (0.80 %)'
+}
+{
+  trait: 'Homeless_pastel_hummus',
+  weight: '59',
+  occurrence: '55 in 4900 editions (1.12 %)'
+}
+{
+  trait: 'Homeless_pastel_pipe',
+  weight: '38',
+  occurrence: '44 in 4900 editions (0.90 %)'
+}
+{
+  trait: 'Huh',
+  weight: '48',
+  occurrence: '37 in 4900 editions (0.76 %)'
+}
+{
+  trait: 'Huh_coins',
+  weight: '18',
+  occurrence: '22 in 4900 editions (0.45 %)'
+}
+{
+  trait: 'Huh_nosering_carbon',
+  weight: '42',
+  occurrence: '51 in 4900 editions (1.04 %)'
+}
+{
+  trait: 'Huh_nosering_purple',
+  weight: '22',
+  occurrence: '19 in 4900 editions (0.39 %)'
+}
+{
+  trait: 'Huh_nosering_red',
+  weight: '18',
+  occurrence: '16 in 4900 editions (0.33 %)'
+}
+{
+  trait: 'Huh_nosering_silver',
+  weight: '26',
+  occurrence: '22 in 4900 editions (0.45 %)'
+}
+{
+  trait: 'Magic_shrooms1',
+  weight: '31',
+  occurrence: '31 in 4900 editions (0.63 %)'
+}
+{
+  trait: 'Magic_shrooms2',
+  weight: '31',
+  occurrence: '34 in 4900 editions (0.69 %)'
+}
+{
+  trait: 'Magic_shrooms3',
+  weight: '31',
+  occurrence: '28 in 4900 editions (0.57 %)'
+}
+{
+  trait: 'Magic_shrooms4',
+  weight: '31',
+  occurrence: '34 in 4900 editions (0.69 %)'
+}
+{
+  trait: 'Mask_camo',
+  weight: '32',
+  occurrence: '25 in 4900 editions (0.51 %)'
+}
+{
+  trait: 'Mask_dots',
+  weight: '26',
+  occurrence: '28 in 4900 editions (0.57 %)'
+}
+{
+  trait: 'Mask_nowar',
+  weight: '35',
+  occurrence: '27 in 4900 editions (0.55 %)'
+}
+{
+  trait: 'Mask_peace',
+  weight: '33',
+  occurrence: '29 in 4900 editions (0.59 %)'
+}
+{
+  trait: 'Melting_cheese',
+  weight: '46',
+  occurrence: '37 in 4900 editions (0.76 %)'
+}
+{
+  trait: 'Mesopotamian_blk',
+  weight: '33',
+  occurrence: '28 in 4900 editions (0.57 %)'
+}
+{
+  trait: 'Mesopotamian_brown',
+  weight: '38',
+  occurrence: '34 in 4900 editions (0.69 %)'
+}
+{
+  trait: 'Mesopotamian_hemingway',
+  weight: '31',
+  occurrence: '22 in 4900 editions (0.45 %)'
+}
+{
+  trait: 'Moonbucks_nrg',
+  weight: '39',
+  occurrence: '39 in 4900 editions (0.80 %)'
+}
+{
+  trait: 'Nationalist_blk',
+  weight: '59',
+  occurrence: '62 in 4900 editions (1.27 %)'
+}
+{
+  trait: 'Nationalist_blk_pipe',
+  weight: '54',
+  occurrence: '57 in 4900 editions (1.16 %)'
+}
+{
+  trait: 'Nationalist_blk_pizza',
+  weight: '35',
+  occurrence: '23 in 4900 editions (0.47 %)'
+}
+{
+  trait: 'Nationalist_grey',
+  weight: '46',
+  occurrence: '47 in 4900 editions (0.96 %)'
+}
+{
+  trait: 'Nationalist_grey_joint',
+  weight: '46',
+  occurrence: '48 in 4900 editions (0.98 %)'
+}
+{
+  trait: 'Nationalist_grey_pipe',
+  weight: '25',
+  occurrence: '29 in 4900 editions (0.59 %)'
+}
+{
+  trait: 'Nationalist_grey_pizza',
+  weight: '27',
+  occurrence: '25 in 4900 editions (0.51 %)'
+}
+{
+  trait: 'Nationalist_mint',
+  weight: '39',
+  occurrence: '27 in 4900 editions (0.55 %)'
+}
+{
+  trait: 'Nationalist_mint_pipe',
+  weight: '29',
+  occurrence: '38 in 4900 editions (0.78 %)'
+}
+{
+  trait: 'Nationalist_mint_pizza',
+  weight: '23',
+  occurrence: '22 in 4900 editions (0.45 %)'
+}
+{
+  trait: 'Nationalist_nosering_gold',
+  weight: '24',
+  occurrence: '23 in 4900 editions (0.47 %)'
+}
+{
+  trait: 'Nationalist_nosering_purple',
+  weight: '24',
+  occurrence: '24 in 4900 editions (0.49 %)'
+}
+{
+  trait: 'Nationalist_nosering_red',
+  weight: '24',
+  occurrence: '22 in 4900 editions (0.45 %)'
+}
+{
+  trait: 'Nationalist_pink',
+  weight: '44',
+  occurrence: '29 in 4900 editions (0.59 %)'
+}
+{
+  trait: 'Nationalist_pink_joint',
+  weight: '38',
+  occurrence: '29 in 4900 editions (0.59 %)'
+}
+{
+  trait: 'Nationalist_pink_pipe',
+  weight: '49',
+  occurrence: '49 in 4900 editions (1.00 %)'
+}
+{
+  trait: 'Nationalist_pink_pizza',
+  weight: '29',
+  occurrence: '34 in 4900 editions (0.69 %)'
+}
+{
+  trait: 'Nervous_bite',
+  weight: '75',
+  occurrence: '70 in 4900 editions (1.43 %)'
+}
+{
+  trait: 'Nervous_choke',
+  weight: '38',
+  occurrence: '26 in 4900 editions (0.53 %)'
+}
+{
+  trait: 'Nervous_choke_coins',
+  weight: '14',
+  occurrence: '13 in 4900 editions (0.27 %)'
+}
+{
+  trait: 'Pipe_herb',
+  weight: '36',
+  occurrence: '25 in 4900 editions (0.51 %)'
+}
+{
+  trait: 'Pizza',
+  weight: '46',
+  occurrence: '42 in 4900 editions (0.86 %)'
+}
+{
+  trait: 'Rainbow_noodle',
+  weight: '48',
+  occurrence: '46 in 4900 editions (0.94 %)'
+}
+{
+  trait: 'Rapture',
+  weight: '58',
+  occurrence: '45 in 4900 editions (0.92 %)'
+}
+{
+  trait: 'Rough_green_snake',
+  weight: '46',
+  occurrence: '42 in 4900 editions (0.86 %)'
+}
+{
+  trait: 'Royal_mask_blk',
+  weight: '36',
+  occurrence: '26 in 4900 editions (0.53 %)'
+}
+{
+  trait: 'Royal_mask_orange',
+  weight: '35',
+  occurrence: '29 in 4900 editions (0.59 %)'
+}
+{
+  trait: 'Royal_mask_wht',
+  weight: '39',
+  occurrence: '39 in 4900 editions (0.80 %)'
+}
+{
+  trait: 'Scream_clown',
+  weight: '15',
+  occurrence: '13 in 4900 editions (0.27 %)'
+}
+{
+  trait: 'Scream_coins',
+  weight: '14',
+  occurrence: '13 in 4900 editions (0.27 %)'
+}
+{
+  trait: 'Smart_chain_snake',
+  weight: '34',
+  occurrence: '26 in 4900 editions (0.53 %)'
+}
+{
+  trait: 'Smooth_love_snake',
+  weight: '58',
+  occurrence: '52 in 4900 editions (1.06 %)'
+}
+{
+  trait: 'Spartan_blk',
+  weight: '35',
+  occurrence: '33 in 4900 editions (0.67 %)'
+}
+{
+  trait: 'Stansfield',
+  weight: '42',
+  occurrence: '30 in 4900 editions (0.61 %)'
+}
+{
+  trait: 'Tongue_out',
+  weight: '58',
+  occurrence: '62 in 4900 editions (1.27 %)'
+}
+{
+  trait: 'Tongue_out_nosering_carbon',
+  weight: '35',
+  occurrence: '41 in 4900 editions (0.84 %)'
+}
+{
+  trait: 'Tongue_out_nosering_silver',
+  weight: '28',
+  occurrence: '26 in 4900 editions (0.53 %)'
+}
+{
+  trait: 'Tongue_stretch',
+  weight: '58',
+  occurrence: '57 in 4900 editions (1.16 %)'
+}
+{
+  trait: 'Transport',
+  weight: '46',
+  occurrence: '39 in 4900 editions (0.80 %)'
+}
+{
+  trait: 'Transport_clown',
+  weight: '25',
+  occurrence: '15 in 4900 editions (0.31 %)'
+}
+{
+  trait: 'Transport_ecigar',
+  weight: '48',
+  occurrence: '37 in 4900 editions (0.76 %)'
+}
+{
+  trait: 'Transport_hamingway',
+  weight: '28',
+  occurrence: '24 in 4900 editions (0.49 %)'
+}
+{
+  trait: 'Transport_nosering_red',
+  weight: '18',
+  occurrence: '14 in 4900 editions (0.29 %)'
+}
+{
+  trait: 'Transport_nosering_silver',
+  weight: '24',
+  occurrence: '23 in 4900 editions (0.47 %)'
+}
+{
+  trait: 'Veganist_garbaldi',
+  weight: '39',
+  occurrence: '33 in 4900 editions (0.67 %)'
+}
+{
+  trait: 'Veganist_garbaldi_blk_ecigar',
+  weight: '39',
+  occurrence: '32 in 4900 editions (0.65 %)'
+}
+{
+  trait: 'Veganist_garbaldi_cigar',
+  weight: '28',
+  occurrence: '24 in 4900 editions (0.49 %)'
+}
+{
+  trait: 'Veganist_garbaldi_oak_ecigar',
+  weight: '23',
+  occurrence: '25 in 4900 editions (0.51 %)'
+}
+{
+  trait: 'Veganist_garbaldi_orange_joint',
+  weight: '26',
+  occurrence: '25 in 4900 editions (0.51 %)'
+}
+{
+  trait: 'Veganist_hemingway',
+  weight: '26',
+  occurrence: '26 in 4900 editions (0.53 %)'
+}
+{
+  trait: 'Veganist_klingon_blk',
+  weight: '31',
+  occurrence: '30 in 4900 editions (0.61 %)'
+}
+{
+  trait: 'Veganist_mealworm',
+  weight: '25',
+  occurrence: '35 in 4900 editions (0.71 %)'
+}
+{
+  trait: 'Veganist_nicotine',
+  weight: '22',
+  occurrence: '20 in 4900 editions (0.41 %)'
+}
+{
+  trait: 'Veganist_nosering_gold',
+  weight: '24',
+  occurrence: '34 in 4900 editions (0.69 %)'
+}
+{
+  trait: 'Veganist_nosering_purple',
+  weight: '24',
+  occurrence: '15 in 4900 editions (0.31 %)'
+}
+{
+  trait: 'Veganist_oak_nosering_gold',
+  weight: '28',
+  occurrence: '25 in 4900 editions (0.51 %)'
+}
+{
+  trait: 'Veganist_pinkberry',
+  weight: '26',
+  occurrence: '27 in 4900 editions (0.55 %)'
+}
+{
+  trait: 'Vgr',
+  weight: '36',
+  occurrence: '34 in 4900 editions (0.69 %)'
+}
+{
+  trait: 'Vgr_nosering_silver',
+  weight: '32',
+  occurrence: '25 in 4900 editions (0.51 %)'
+}
+{
+  trait: 'Wuuu',
+  weight: '65',
+  occurrence: '65 in 4900 editions (1.33 %)'
+}
+{
+  trait: 'Wuuu_coins',
+  weight: '16',
+  occurrence: '9 in 4900 editions (0.18 %)'
+}
+{
+  trait: 'Wuuu_nosering_carbon',
+  weight: '26',
+  occurrence: '29 in 4900 editions (0.59 %)'
+}
+{
+  trait: 'Wuuu_nosering_red',
+  weight: '18',
+  occurrence: '15 in 4900 editions (0.31 %)'
+}
+{
+  trait: 'Wuuu_pipe',
+  weight: '45',
+  occurrence: '54 in 4900 editions (1.10 %)'
+}
+{
+  trait: 'Wuuu_pizza',
+  weight: '36',
+  occurrence: '29 in 4900 editions (0.59 %)'
+}
+{
+  trait: 'Xnx',
+  weight: '38',
+  occurrence: '34 in 4900 editions (0.69 %)'
+}
+
+Done in 0.69s.

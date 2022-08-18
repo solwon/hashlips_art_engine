@@ -23,7 +23,8 @@
     "sort": "node utils/sort.js",
     "sortall": "node utils/batchSort.js",
     "previewall": "node utils/batchPreview.js",
-    "buildall": "node src/batchMain.js"
+    "buildall": "node src/batchMain.js",
+    "export": "node utils/exporter.js"
   },
   "author": "Daniel Eugene Botha (HashLips)",
   "license": "MIT",

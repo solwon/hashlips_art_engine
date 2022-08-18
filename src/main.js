@@ -21,8 +21,8 @@ const {
   network,
   solanaMetadata,
   gif,
+  pickedDna,
 } = require(`${basePath}/src/config.js`);
-const { pickedDna } = require(`${basePath}/src/dnalist.js`);
 // console.log(pickedDna);
 
 const canvas = createCanvas(format.width, format.height);
@@ -63,7 +63,8 @@ const getRarityWeight = (_str) => {
 
 const cleanDna = (_str) => {
   const withoutOptions = removeQueryStrings(_str);
-  var dna = Number(withoutOptions.split(":").shift());
+  // var dna = Number(withoutOptions.split(":").shift());
+  var dna = withoutOptions.split(":").shift();
   return dna;
 };
 
@@ -233,7 +234,8 @@ const drawElement = (_renderObject, _index, _layersLen) => {
 const constructLayerToDna = (_dna = "", _layers = []) => {
   let mappedDnaToLayers = _layers.map((layer, index) => {
     let selectedElement = layer.elements.find(
-      (e) => e.id == cleanDna(_dna.split(DNA_DELIMITER)[index])
+      // (e) => e.id == cleanDna(_dna.split(DNA_DELIMITER)[index])
+      (e) => e.filename == cleanDna(_dna.split(DNA_DELIMITER)[index])
     );
     return {
       name: layer.name,
@@ -242,6 +244,7 @@ const constructLayerToDna = (_dna = "", _layers = []) => {
       selectedElement: selectedElement,
     };
   });
+  // console.log(mappedDnaToLayers);
   return mappedDnaToLayers;
 };
 
@@ -303,14 +306,20 @@ const createDna = (_layers) => {
       // subtract the current weight from the random weight until we reach a sub zero value.
       random -= layer.elements[i].weight;
       if (random < 0) {
+        // if (!layer.elements[i].filename.startsWith("none")){
         return randNum.push(
-          `${layer.elements[i].id}:${layer.elements[i].filename}${
+          // `${layer.elements[i].id}:${layer.elements[i].filename}${
+          //   layer.bypassDNA ? "?bypassDNA=true" : ""
+          // }`
+          `${layer.elements[i].filename}${
             layer.bypassDNA ? "?bypassDNA=true" : ""
           }`
         );
+        // }
       }
     }
   });
+  console.log(randNum.join(DNA_DELIMITER));
   return randNum.join(DNA_DELIMITER);
 };
 
@@ -370,7 +379,13 @@ const startCreating = async () => {
     while (
       editionCount <= layerConfigurations[layerConfigIndex].growEditionSizeTo
     ) {
-      let newDna = createDna(layers);
+      let newDna = '';
+      if (layerConfigurations[layerConfigIndex].isSelection){
+        newDna = pickedDna[editionCount - 1];
+      } else {
+        newDna = createDna(layers);
+      }
+      // let newDna = createDna(layers);
       if (isDnaUnique(dnaList, newDna)) {
         let results = constructLayerToDna(newDna, layers);
         let loadedElements = [];

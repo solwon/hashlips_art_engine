@@ -1,6 +1,8 @@
 const basePath = process.cwd();
 const { MODE } = require(`${basePath}/constants/blend_mode.js`);
 const { NETWORK } = require(`${basePath}/constants/network.js`);
+const { pickedDna } = require(`${basePath}/src/dnalist.js`);
+
 
 const network = NETWORK.eth;
 
@@ -24,13 +26,47 @@ const solanaMetadata = {
 // If you have selected Solana then the collection starts from 0 automatically
 const layerConfigurations = [
   {
-    growEditionSizeTo: 4900,
+    isSelection: true,
+    growEditionSizeTo: pickedDna.length,
     layersOrder: [
       { name: "Background" },
       {
         name: "Divine_Protection",
         options: {
-          displayName: "Divine Protection"
+          displayName: "Divine Protection",
+          bypassDNA: true,
+        },
+      },
+      { name: "Sign" },
+      {
+        name: "Furs",
+        options: {
+          displayName: "Fur",
+        }
+      },
+      { name: "Tabby" },
+      {
+        name: "Accesories",
+        options: {
+          displayName: "Accesory"
+        }
+      },
+      { name: "Clothing" },
+      { name: "Eyes" },
+      { name: "Eyeware" },
+      { name: "Mouth" },
+    ],
+  },
+  {
+    isSelection: false,
+    growEditionSizeTo: 100,
+    layersOrder: [
+      { name: "Background" },
+      {
+        name: "Divine_Protection",
+        options: {
+          displayName: "Divine Protection",
+          bypassDNA: true,
         },
       },
       { name: "Sign" },
@@ -61,6 +97,7 @@ const layerConfigurations = [
   //       name: "Divine_Protection",
   //       options: {
   //         displayName: "Divine Protection"
+  //         bypassDNA: true,
   //       },
   //     },
   //     { name: "Sign" },
@@ -235,5 +272,6 @@ module.exports = {
   gif,
   preview_gif,
   layerConfigurationsWithEars,
-  layerConfigurationsWithoutEars
+  layerConfigurationsWithoutEars,
+  pickedDna,
 };
