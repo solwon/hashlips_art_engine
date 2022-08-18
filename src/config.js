@@ -29,7 +29,6 @@ const layerConfigurations = [
     isSelection: true,
     growEditionSizeTo: pickedDna.length,
     layersOrder: [
-      { name: "Background" },
       {
         name: "Divine_Protection",
         options: {
@@ -37,6 +36,7 @@ const layerConfigurations = [
           bypassDNA: true,
         },
       },
+      { name: "Background" },
       { name: "Sign" },
       {
         name: "Furs",
@@ -61,7 +61,6 @@ const layerConfigurations = [
     isSelection: false,
     growEditionSizeTo: 100,
     layersOrder: [
-      { name: "Background" },
       {
         name: "Divine_Protection",
         options: {
@@ -69,6 +68,7 @@ const layerConfigurations = [
           bypassDNA: true,
         },
       },
+      { name: "Background" },
       { name: "Sign" },
       {
         name: "Fur_YesEars",

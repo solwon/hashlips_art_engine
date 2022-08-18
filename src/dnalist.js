@@ -10,7 +10,7 @@ const pickedDna =
     "04pm#360.png-Quetzalcoatl#286.png?bypassDNA=true-none#6248.png-Cinnamon#888.png-Milk_beast#34.png-Implants_side_horns#58.png-Polo_shirts_wht#52.png-Awakening_uptrend#51.png-Square_blue#35.png-Transport_nosering_silver#24.png",
     "06pm#360.png-Nang_kwak#286.png?bypassDNA=true-none#6248.png-Fawn#888.png-Muzzle_blk#24.png-Mohawk_blk#36.png-Apron_tuxedo_blk#36.png-Confirmation_bias_volatile#68.png-Patch_blk_cmc#33.png-Wuuu_pipe#45.png",
     "03am#98.png-Ptah#286.png?bypassDNA=true-none#6248.png-Cobalt#138.png-none#4248.png-none#4200.png-Msgbag_wht_tee_blue#35.png-Nightwatch_exhausted_lemon#84.png-none#5400.png-Tongue_out#58.png"
-  ]
+];
 
 module.exports = {
     pickedDna

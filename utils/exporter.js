@@ -5,7 +5,7 @@ const metadataDir = `${exporterDir}/metadata`;
 const dnasDir = `${exporterDir}/dnas`;
 
 const metadataFile = '_metadata.json';
-const pickedEditions = [91, 92, 93, 94, 95, 96, 97, 98, 99, 100];
+const pickedEditions = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100];
 const dnasFile = '_dna.json';
 const DNA_DELIMITER = '-';
 
@@ -13,8 +13,8 @@ const rawMetadata = fs.readFileSync(`${metadataDir}/${metadataFile}`);
 const metadata = JSON.parse(rawMetadata);
 
 const layerOrder = [
-    'Background',
     'Divine Protection',
+    'Background',
     'Sign',
     'Fur',
     'Tabby',
