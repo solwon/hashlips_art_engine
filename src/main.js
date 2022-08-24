@@ -319,7 +319,7 @@ const createDna = (_layers) => {
       }
     }
   });
-  console.log(randNum.join(DNA_DELIMITER));
+  // console.log(randNum.join(DNA_DELIMITER));
   return randNum.join(DNA_DELIMITER);
 };
 
