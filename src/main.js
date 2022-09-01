@@ -30,7 +30,7 @@ const ctx = canvas.getContext("2d");
 ctx.imageSmoothingEnabled = format.smoothing;
 var metadataList = [];
 var attributesList = [];
-var dnaList = new Set([...pickedDna]);
+var dnaList = new Set();
 const DNA_DELIMITER = "-";
 const HashlipsGiffer = require(`${basePath}/modules/HashlipsGiffer.js`);
 const { of } = require('ipfs-only-hash');
@@ -194,6 +194,7 @@ const addAttributes = (_element) => {
 const loadLayerImg = async (_layer) => {
   try {
     return new Promise(async (resolve) => {
+      // console.log(_layer);
       const image = await loadImage(`${_layer.selectedElement.path}`);
       resolve({ layer: _layer, loadedImage: image });
     });
@@ -235,7 +236,7 @@ const constructLayerToDna = (_dna = "", _layers = []) => {
   let mappedDnaToLayers = _layers.map((layer, index) => {
     let selectedElement = layer.elements.find(
       // (e) => e.id == cleanDna(_dna.split(DNA_DELIMITER)[index])
-      (e) => e.filename == cleanDna(_dna.split(DNA_DELIMITER)[index])
+      (e) => e.filename.startsWith(cleanDna(_dna.split(DNA_DELIMITER)[index]))
     );
     return {
       name: layer.name,
@@ -311,7 +312,7 @@ const createDna = (_layers) => {
           // `${layer.elements[i].id}:${layer.elements[i].filename}${
           //   layer.bypassDNA ? "?bypassDNA=true" : ""
           // }`
-          `${layer.elements[i].filename}${
+          `${cleanName(layer.elements[i].filename)}${
             layer.bypassDNA ? "?bypassDNA=true" : ""
           }`
         );

@@ -27,7 +27,8 @@ const solanaMetadata = {
 const layerConfigurations = [
   {
     isSelection: true,
-    growEditionSizeTo: pickedDna.length,
+    // growEditionSizeTo: pickedDna.length,
+    growEditionSizeTo: 0,
     layersOrder: [
       {
         name: "Divinity",
@@ -63,7 +64,7 @@ const layerConfigurations = [
   },
   {
     isSelection: false,
-    growEditionSizeTo: 4900,
+    growEditionSizeTo: 3200,
     layersOrder: [
       {
         name: "Divinity",
@@ -92,37 +93,37 @@ const layerConfigurations = [
       { name: "Mouth" },
     ],
   },
-  // {
-  //   isSelection: false,
-  //   growEditionSizeTo: 4900,
-  //   layersOrder: [
-  //     {
-  //       name: "Divinity",
-  //       options: {
-  //         bypassDNA: true,
-  //       },
-  //     },
-  //     { name: "Background" },
-  //     { name: "Sign" },
-  //     {
-  //       name: "Fur_NoEars",
-  //       options: {
-  //         displayName: "Fur",
-  //       }
-  //     },
-  //     { name: "Tabby" },
-  //     {
-  //       name: "Headwear_NoEars",
-  //       options: {
-  //         displayName: "Headwear"
-  //       }
-  //     },
-  //     { name: "Clothing" },
-  //     { name: "Eyes" },
-  //     { name: "Eyewear" },
-  //     { name: "Mouth" },
-  //   ],
-  // },
+  {
+    isSelection: false,
+    growEditionSizeTo: 6400,
+    layersOrder: [
+      {
+        name: "Divinity",
+        options: {
+          bypassDNA: true,
+        },
+      },
+      { name: "Background" },
+      { name: "Sign" },
+      {
+        name: "Fur_NoEars",
+        options: {
+          displayName: "Fur",
+        }
+      },
+      { name: "Tabby" },
+      {
+        name: "Headwear_NoEars",
+        options: {
+          displayName: "Headwear"
+        }
+      },
+      { name: "Clothing" },
+      { name: "Eyes" },
+      { name: "Eyewear" },
+      { name: "Mouth" },
+    ],
+  },
 ];
 
 const layerConfigurationsWithEars = [
@@ -195,8 +196,8 @@ const shuffleLayerConfigurations = false;
 const debugLogs = false;
 
 const format = {
-  width: 2000,
-  height: 2000,
+  width: 1000,
+  height: 1000,
   smoothing: false,
 };
 
@@ -238,8 +239,8 @@ const rarityDelimiter = "#";
 const uniqueDnaTorrance = 10000;
 
 const preview = {
-  thumbPerRow: 70,
-  thumbWidth: 350,
+  thumbPerRow: 80,
+  thumbWidth: 400,
   imageRatio: format.height / format.width,
   imageName: "preview.png",
   numbering: true,
