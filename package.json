@@ -24,9 +24,11 @@
     "sortall": "node utils/batchSort.js",
     "previewall": "node utils/batchPreview.js",
     "buildall": "node src/batchMain.js",
-    "export": "node utils/exporter.js"
+    "shuffle": "node utils/shuffle.js",
+    "export": "node utils/exporter.js",
+    "bundle": "yarn build && yarn sort && yarn preview"
   },
-  "author": "Daniel Eugene Botha (HashLips)",
+  "author": "CoinMarketCat",
   "license": "MIT",
   "dependencies": {
     "canvas": "^2.8.0",

@@ -5,6 +5,7 @@ const layersDir = `${basePath}/layers`;
 const { layerConfigurations } = require(`${basePath}/src/config.js`);
 
 const { getElements } = require("../src/main.js");
+const csvOutput = `${basePath}/rarity.csv`
 
 // read json data
 let rawdata = fs.readFileSync(`${basePath}/build/json/_metadata.json`);
@@ -12,6 +13,13 @@ let data = JSON.parse(rawdata);
 let editionSize = data.length;
 
 let rarityData = [];
+let rarityCsv = [];
+
+const getDirName = (_layerName) => {
+  if (_layerName == 'Fur_YesEars' || _layerName == 'Fur_NoEars') return 'Furs';
+  if (_layerName == 'Headwear_YesEars' || _layerName == 'Headwear_NoEars') return 'Headwears';
+  return _layerName;
+}
 
 // intialize layers to chart
 layerConfigurations.forEach((config) => {
@@ -20,7 +28,7 @@ layerConfigurations.forEach((config) => {
   layers.forEach((layer) => {
     // get elements for each layer
     let elementsForLayer = [];
-    let elements = getElements(`${layersDir}/${layer.name}/`);
+    let elements = getElements(`${layersDir}/${getDirName(layer.name)}/`);
     elements.forEach((element) => {
       // just get name and weight for each element
       let rarityDataElement = {
@@ -67,6 +75,8 @@ for (var layer in rarityData) {
       ((rarityData[layer][attribute].occurrence / editionSize) * 100).toFixed(2);
 
     // show two decimal places in percent
+    rarityData[layer][attribute].number = rarityData[layer][attribute].occurrence;
+    rarityData[layer][attribute].chance = chance;
     rarityData[layer][attribute].occurrence =
       `${rarityData[layer][attribute].occurrence} in ${editionSize} editions (${chance} %)`;
   }
@@ -74,9 +84,12 @@ for (var layer in rarityData) {
 
 // print out rarity data
 for (var layer in rarityData) {
-  console.log(`Trait type: ${layer}`);
+  // console.log(`Trait type: ${layer}`);
+  rarityCsv.push(['layer', 'trait', 'weight', 'occurrence', 'ratio']);
   for (var trait in rarityData[layer]) {
-    console.log(rarityData[layer][trait]);
+    // console.log(rarityData[layer][trait]);
+    rarityCsv.push([layer, rarityData[layer][trait].trait, rarityData[layer][trait].weight, rarityData[layer][trait].number, rarityData[layer][trait].chance]);
   }
-  console.log();
+  // console.log();
 }
+fs.writeFileSync(csvOutput, rarityCsv.map(element => element.join(',')).join('\n'));

@@ -64,7 +64,7 @@ const layerConfigurations = [
   },
   {
     isSelection: false,
-    growEditionSizeTo: 3200,
+    growEditionSizeTo: 2400,
     layersOrder: [
       {
         name: "Divinity",

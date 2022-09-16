@@ -43,6 +43,7 @@ const range = (start, end) => {
 const getCleanedName = (filename) => {
     const nameWithoutExtension = filename.split('.')[0];
     const cleanedName = nameWithoutExtension.split(RARITY_DELIMITER)[0];
+    // console.log(cleanedName);
     return cleanedName;
 }
 
@@ -66,6 +67,7 @@ const getFileName = (layer, value) => {
 let pickedDnas = [];
 let usedEditions = [];
 console.log(pickedEditions);
+console.log(pickedEditions.length)
 let counter = 0;
 for (let data of metadata) {
     if (pickedEditions.includes(data.edition)) {
