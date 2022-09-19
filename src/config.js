@@ -27,8 +27,8 @@ const solanaMetadata = {
 const layerConfigurations = [
   {
     isSelection: true,
-    growEditionSizeTo: pickedDna.length,
-    // growEditionSizeTo: 0,
+    // growEditionSizeTo: pickedDna.length,
+    growEditionSizeTo: 0,
     layersOrder: [
       {
         name: "Divinity",
@@ -62,37 +62,37 @@ const layerConfigurations = [
       { name: "Mouth" },
     ],
   },
-  // {
-  //   isSelection: false,
-  //   growEditionSizeTo: 1600,
-  //   layersOrder: [
-  //     {
-  //       name: "Divinity",
-  //       options: {
-  //         bypassDNA: true,
-  //       },
-  //     },
-  //     { name: "Background" },
-  //     { name: "Sign" },
-  //     {
-  //       name: "Fur_YesEars",
-  //       options: {
-  //         displayName: "Fur",
-  //       }
-  //     },
-  //     { name: "Tabby" },
-  //     {
-  //       name: "Headwear_YesEars",
-  //       options: {
-  //         displayName: "Headwear"
-  //       }
-  //     },
-  //     { name: "Clothing" },
-  //     { name: "Eyes" },
-  //     { name: "Eyewear" },
-  //     { name: "Mouth" },
-  //   ],
-  // },
+  {
+    isSelection: false,
+    growEditionSizeTo: 4000,
+    layersOrder: [
+      {
+        name: "Divinity",
+        options: {
+          bypassDNA: true,
+        },
+      },
+      { name: "Background" },
+      { name: "Sign" },
+      {
+        name: "Fur_YesEars",
+        options: {
+          displayName: "Fur",
+        }
+      },
+      { name: "Tabby" },
+      {
+        name: "Headwear_YesEars",
+        options: {
+          displayName: "Headwear"
+        }
+      },
+      { name: "Clothing" },
+      { name: "Eyes" },
+      { name: "Eyewear" },
+      { name: "Mouth" },
+    ],
+  },
   // {
   //   isSelection: false,
   //   growEditionSizeTo: 4000,
