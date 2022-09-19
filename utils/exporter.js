@@ -13,11 +13,27 @@ const RARITY_DELIMITER = '#';
 const rawMetadata = fs.readFileSync(`${metadataDir}/${metadataFile}`);
 const metadata = JSON.parse(rawMetadata);
 
+const range = (start, end) => {
+    return Array(end - start + 1).fill().map((_, idx) => start + idx);
+}
+
 const pickedCSV = fs.readFileSync('./utils/pickedEditions.csv', {encoding: 'utf8'});
-const parsedCSV = pickedCSV.split('\r\n');
-console.log(parsedCSV);
-parsedCSV.pop();
-parsedCSV.forEach(ele => pickedEditions.push(Number(ele)));
+const parsedCSV = pickedCSV.split('\r\n').map(e => Number(e));
+const args = process.argv.slice(2);
+// console.log(args);
+if (!args) {
+    console.log(parsedCSV);
+    parsedCSV.pop();
+    parsedCSV.forEach(ele => pickedEditions.push(Number(ele)));
+} else if (args[0] == 'exclude') {
+    const tempRange = range(1, metadata.length);
+    for (let i = 0; i < tempRange.length; i++) {
+        if (!parsedCSV.includes(tempRange[i])) {
+            pickedEditions.push(tempRange[i]);
+        }
+    }
+    // console.log(pickedEditions);
+}
 
 const layerOrder = [
     'Divinity',
@@ -34,10 +50,6 @@ const layerOrder = [
 const layerDict = {
     'Fur': 'Furs',
     'Headwear': 'Headwears'
-}
-
-const range = (start, end) => {
-    return Array(end - start + 1).fill().map((_, idx) => start + idx);
 }
 
 const getCleanedName = (filename) => {
