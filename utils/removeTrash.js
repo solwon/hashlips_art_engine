@@ -11,7 +11,7 @@ const deleteTrash = (path) => {
             files.forEach(file => fs.rmSync(dirPath + '/' + file));
         } else {
             files.forEach(file => {
-                if (file == '.BridgeSort' || file == 'desktop.ini' || file == 'Icon_') {
+                if (file == '.BridgeSort' || file == 'desktop.ini' || file == 'Icon_' || file == '.DS_Store') {
                     fs.rmSync(dirPath + '/' + file);
                 } else if (directory == 'Fur_NoEars' || directory == 'Fur_YesEars') {
                     fs.copyFile(dirPath + '/' + file, layerPath + '/Furs/' + file, () => {});
