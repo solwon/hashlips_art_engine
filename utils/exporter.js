@@ -66,18 +66,21 @@ const getFileName = (layer, value) => {
     }
     const fileList = fs.readdirSync(`${basePath}/layers/${layerName}`);
     for (const file of fileList) {
-        if (file.startsWith(value)) {
+        // console.log(value, getCleanedName(file));
+        let cleanedName = getCleanedName(file);
+        if (value == cleanedName) {
             // console.log(file);
-            let cleanedName = getCleanedName(file);
             return cleanedName;
         }
     }
-    Error(`${layer} ${value} not found`);
+    // console.log(`${layer} ${value} not found`);
     return undefined;
 } 
 
 let pickedDnas = [];
 let usedEditions = [];
+let noFiles = [];
+let noFileIndex = [];
 console.log(pickedEditions);
 console.log(pickedEditions.length)
 let counter = 0;
@@ -96,6 +99,10 @@ for (let data of metadata) {
                 j++;
             } else {
                 fileName = getFileName(layer, 'none');
+                if (fileName == undefined) {
+                    noFiles.push(`${attribute.trait_type}-${attribute.value}`);
+                    noFileIndex.push(`${data.edition}: ${attribute.trait_type}-${attribute.value}`);
+                }
                 i++;
             }
             if (attribute.trait_type == 'Divinity' || attribute.trait_type == 'Background') {
@@ -123,3 +130,5 @@ if (fs.existsSync(`${dnasDir}/${dnasFile}`)) {
 fs.writeFileSync(`${dnasDir}/${dnasFile}`, JSON.stringify(pickedDnas, null, 2));
 console.log(counter);
 console.log(usedEditions);
+console.log(new Set(noFiles));
+console.log(new Set(noFileIndex));

@@ -16,7 +16,7 @@ let rawdata = fs.readFileSync(`${buildDir}/json/_metadata.json`);
 let data = JSON.parse(rawdata);
 const size = data.length;
 
-const orders = ['Background', 'Fur', 'Clothing', 'Eyes', 'Eyewear', 'Mouth'];
+const orders = ['Background', 'Clothing', 'Fur', 'Eyes', 'Eyewear', 'Mouth'];
 
 const getRarityWeight = (_str) => {
     let nameWithoutExtension = _str.slice(0, -4);

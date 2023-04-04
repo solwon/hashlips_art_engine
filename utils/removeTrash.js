@@ -7,11 +7,19 @@ const deleteTrash = (path) => {
     dirs.forEach(directory => {
         const dirPath = path + '/' + directory;
         const files = fs.readdirSync(dirPath);
-        files.forEach(file => {
-            if (file == '.BridgeSort' || file == 'desktop.ini') {
-                fs.rmSync(dirPath + '/' + file);
-            }
-        })
+        if (directory == 'Furs' || directory == 'Headwears') {
+            files.forEach(file => fs.rmSync(dirPath + '/' + file));
+        } else {
+            files.forEach(file => {
+                if (file == '.BridgeSort' || file == 'desktop.ini' || file == 'Icon_') {
+                    fs.rmSync(dirPath + '/' + file);
+                } else if (directory == 'Fur_NoEars' || directory == 'Fur_YesEars') {
+                    fs.copyFile(dirPath + '/' + file, layerPath + '/Furs/' + file, () => {});
+                } else if (directory == 'Headwear_NoEars' || directory == 'Headwear_YesEars') {
+                    fs.copyFile(dirPath + '/' + file, layerPath + '/Headwears/' + file, () => {});
+                }
+            });
+        }
     });
 }
 

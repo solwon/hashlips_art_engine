@@ -26,6 +26,7 @@
     "buildall": "node src/batchMain.js",
     "shuffle": "node utils/shuffle.js",
     "export": "node utils/exporter.js",
+    "removetrash": "node utils/removeTrash.js",
     "bundle": "yarn build && yarn sort && yarn preview"
   },
   "author": "CoinMarketCat",
